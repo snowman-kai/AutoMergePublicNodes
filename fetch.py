@@ -24,6 +24,14 @@ import sys
 import os
 import copy
 from types import FunctionType as function
+
+class GoDumper(yaml.SafeDumper):
+    """PyYAML 默认序列项与 key 同缩进，FlClash(Go yaml.v3) 不接受。
+    此类让序列缩进在 key 之下，生成 Go 兼容 YAML。"""
+    def increase_indent(self, flow=False, indentless=False):
+        return super().increase_indent(flow, False)
+
+
 from typing import Set, List, Dict, Union, Callable, Any, Optional, Iterable, TypedDict
 
 class TYPE_FETCH_CONFIG(TypedDict):
@@ -1329,10 +1337,10 @@ def main():
                         traceback.print_exc()
         for ctg, proxies in ctg_nodes.items():
             with open("snippets/nodes_"+ctg+".yml", 'w', encoding="utf-8") as f:
-                yaml.dump({'proxies': proxies}, f, allow_unicode=True)
+                yaml.dump({'proxies': proxies}, f, Dumper=GoDumper, allow_unicode=True)
         for ctg, proxies in ctg_nodes_meta.items():
             with open("snippets/nodes_"+ctg+".meta.yml", 'w', encoding="utf-8") as f:
-                yaml.dump({'proxies': proxies}, f, allow_unicode=True)
+                yaml.dump({'proxies': proxies}, f, Dumper=GoDumper, allow_unicode=True)
 
     print("正在写出 Clash & Meta 订阅...")
     keywords: List[str] = []
@@ -1418,9 +1426,9 @@ def main():
         conf['dns']['enhanced-mode'] = 'fake-ip'
     with open("list.yml", 'w', encoding="utf-8") as f:
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
-        f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
+        f.write(yaml.dump(conf, Dumper=GoDumper, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.yml", 'w', encoding="utf-8") as f:
-        f.write(yaml.dump({'proxies': proxies}, allow_unicode=True).replace('!!str ',''))
+        f.write(yaml.dump({'proxies': proxies}, Dumper=GoDumper, allow_unicode=True).replace('!!str ',''))
 
     # Meta
     conf = conf_meta
@@ -1445,9 +1453,9 @@ def main():
         conf['dns']['enhanced-mode'] = dns_mode
     with open("list.meta.yml", 'w', encoding="utf-8") as f:
         f.write(datetime.datetime.now().strftime('# Update: %Y-%m-%d %H:%M\n'))
-        f.write(yaml.dump(conf, allow_unicode=True).replace('!!str ',''))
+        f.write(yaml.dump(conf, Dumper=GoDumper, allow_unicode=True).replace('!!str ',''))
     with open("snippets/nodes.meta.yml", 'w', encoding="utf-8") as f:
-        f.write(yaml.dump({'proxies': proxies_meta}, allow_unicode=True).replace('!!str ',''))
+        f.write(yaml.dump({'proxies': proxies_meta}, Dumper=GoDumper, allow_unicode=True).replace('!!str ',''))
 
     if CATEGORIES:
         print("正在写出配置片段...")
@@ -1460,7 +1468,7 @@ def main():
                 snippets[name_map[rpolicy]].append(rule)
         for name, payload in snippets.items():
             with open("snippets/"+name+".yml", 'w', encoding="utf-8") as f:
-                yaml.dump({'payload': payload}, f, allow_unicode=True)
+                yaml.dump({'payload': payload}, f, Dumper=GoDumper, allow_unicode=True)
 
         with open("snippets/example.yml", encoding="utf-8") as f:
             template: Dict[str, Any] = yaml.full_load(f)
@@ -1474,12 +1482,12 @@ def main():
                 del group['use']
                 group['include-all'] = True
         with open("snippets/rules_online.yml", 'w', encoding="utf-8") as f:
-            yaml.dump(template, f, allow_unicode=True)
+            yaml.dump(template, f, Dumper=GoDumper, allow_unicode=True)
 
         del template['rule-providers']
         template['rules'] = conf['rules']
         with open("snippets/rules.yml", 'w', encoding="utf-8") as f:
-            yaml.dump(template, f, allow_unicode=True)
+            yaml.dump(template, f, Dumper=GoDumper, allow_unicode=True)
 
     print("正在写出统计信息...")
     out = "序号,链接,节点数\n"
