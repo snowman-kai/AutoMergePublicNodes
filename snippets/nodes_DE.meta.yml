@@ -50,6 +50,13 @@ proxies:
     sni: germany1.h2corp.local
     tls: false
     type: hysteria2
+  - name: 🇩🇪158848 | ⚡️Telegram = t.me/S...
+    password: 1a17fbd6-a54f-456c-8e71-5282893e2b69
+    port: 443
+    server: 31.76.106.61
+    sni: gos.ultimagamest.com
+    tls: false
+    type: hysteria2
   - alpn:
       - h3
     name: -🇩🇪 @VConfing
@@ -68,6 +75,28 @@ proxies:
     obfs: salamander
     obfs-password: fuw2k1ddrouwxr3u
     password: 4savc5ig1n3549e4
+    port: 52021
+    server: giftcard.gateway-stream.com
+    skip-cert-verify: false
+    sni: giftcard.gateway-stream.com
+    tls: false
+    type: hysteria2
+  - alpn:
+      - h3
+    client-fingerprint: chrome
+    name: dc-udp-🇩🇪 Germany-Berlin
+    obfs: salamander
+    obfs-password: fuw2k1ddrouwxr3u
+    password: 8f0gvz5eul6omhq4
+    port: 52021
+    server: giftcard.gateway-stream.com
+    sni: giftcard.gateway-stream.com
+    tls: false
+    type: hysteria2
+  - name: 🇩🇪AZARBAYJAB1
+    obfs: salamander
+    obfs-password: fuw2k1ddrouwxr3u
+    password: 8f0gvz5eul6omhq4
     port: 52021
     server: giftcard.gateway-stream.com
     skip-cert-verify: false
@@ -134,35 +163,35 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
+  - name: 👝36@oneclickvpnkeys
+    password: umnDU7jgFYUjpVjVM2sW9HL0rRYLJNgzVwRu2HzWEhyZKkRx
+    port: 443
+    server: 5.83.129.11
+    skip-cert-verify: true
+    sni: germany1.h2corp.local
+    tls: false
+    type: hysteria2
+  - name: 🇩🇪DE_1|1.5MB/s
+    password: None
+    port: 9443
+    server: 87.249.132.97
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: null
   - client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_1|2.4MB/s
-    network: ws
-    port: '8443'
-    server: rah.vip1111.ir
-    servername: panel.vip1111.ir
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_2|1.3MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: 5Pv-Gqs49ydRNxibByz0iBytfBe7Ohmlb5Jp0ZQeuko
+      short-id: '!!str '
+    server: ge1.di1.aftabee.ir
+    servername: ge1.di1.aftabee.ir
     tls: true
     type: vless
     udp: true
-    uuid: 5b4d8638-708f-4f73-a190-050a0039f714
-    ws-opts:
-      headers:
-        Host: panel.vip1111.ir
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/63.0.3239.132 Safari/537.36
-      path: /ai-articles/465992-kids-feel-ai-own-words-featured/
+    uuid: 43c5a97a-d0d6-4ab8-86cf-c2d0fbeb01a4
     xudp: true
-  - alpn:
-      - h3
-    auth-str: dongtaiwang.com
-    auth_str: dongtaiwang.com
-    down: 1000
-    name: 🇩🇪DE_2|1.7MB/s
-    port: 20088
-    protocol: udp
-    server: 5.83.129.153
-    skip-cert-verify: true
-    sni: apple.com
-    type: hysteria
-    udp: true
-    up: 500

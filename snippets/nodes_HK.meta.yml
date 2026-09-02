@@ -57,7 +57,7 @@ proxies:
     grpc-opts:
       grpc-mode: gun
       grpc-service-name: movie
-    name: 🇭🇰HK_1|4.3MB/s
+    name: 🇭🇰HK_1|4.8MB/s
     network: grpc
     port: 10130
     reality-opts:
@@ -72,24 +72,8 @@ proxies:
   - client-fingerprint: chrome
     grpc-opts:
       grpc-mode: gun
-      grpc-service-name: update
-    name: 🇭🇰HK_2|5.0MB/s
-    network: grpc
-    port: 10127
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: '!!str 686c0ef0'
-    server: hk2-r.link-t7.com
-    servername: s0.awsstatic.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
       grpc-service-name: movie
-    name: 🇭🇰HK_3|5.4MB/s
+    name: 🇭🇰HK_2|5.0MB/s
     network: grpc
     port: 10128
     reality-opts:
@@ -101,11 +85,28 @@ proxies:
     type: vless
     udp: true
     uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  - alterId: '0'
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: movie
+    name: 🇭🇰HK_3|5.0MB/s
+    network: grpc
+    port: '10129'
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: '!!str 686c0ef0'
+    server: hk4-r.link-t7.com
+    servername: s0.awsstatic.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+    xudp: true
+  - alterId: 0
     cipher: auto
-    name: 🇭🇰HK_4|1.7MB/s
+    name: 🇭🇰HK_4|4.3MB/s
     network: ws
-    port: '16632'
+    port: 16632
     server: planb.mojcn.com.linuxlh.xin
     skip-cert-verify: false
     tls: false
@@ -119,26 +120,10 @@ proxies:
     xudp: true
   - alterId: 0
     cipher: auto
-    name: 🇭🇰HK_5|1.0MB/s
+    name: 🇭🇰HK_5|2.2MB/s
     network: ws
     port: 16632
     server: t.cnmjcn.cyou
-    skip-cert-verify: false
-    tls: false
-    type: vmess
-    udp: true
-    uuid: 56a511bd-f207-48f4-be5b-4652afe178a4
-    ws-opts:
-      headers:
-        Host: 686a7558df571afb1408b0e77ae4f687.mobgslb.tbcache.com
-      path: /
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: 🇭🇰HK_6|5.1MB/s
-    network: ws
-    port: '16632'
-    server: planb.mojcn.com.linuxlh.xin
     skip-cert-verify: false
     tls: false
     type: vmess
@@ -153,8 +138,24 @@ proxies:
     encryption: none
     grpc-opts:
       grpc-mode: gun
+      grpc-service-name: update
+    name: 🇭🇰HK_6|4.4MB/s
+    network: grpc
+    port: 10126
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: '!!str 686c0ef0'
+    server: hk1-r.link-t7.com
+    servername: s0.awsstatic.com
+    tls: true
+    type: vless
+    uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-mode: gun
       grpc-service-name: movie
-    name: 🇭🇰HK_7|4.0MB/s
+    name: 🇭🇰HK_7|5.3MB/s
     network: grpc
     packet-encoding: xudp
     port: 10136
@@ -166,17 +167,83 @@ proxies:
     tls: true
     type: vless
     uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  - fingerprint: ''
-    name: 🇭🇰HK_8|3.1MB/s
-    password: zssrOQ
-    port: '7008'
-    server: api.meituan88.com
-    skip-cert-verify: true
-    sni: ''
-    type: anytls
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: movie
+    name: 🇭🇰HK_8|5.3MB/s
+    network: grpc
+    port: '10129'
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: '!!str 686c0ef0'
+    server: hk4-r.link-t7.com
+    servername: s0.awsstatic.com
+    tls: true
+    type: vless
     udp: true
-    username: zssrOQ
-  - name: 🇭🇰HK_9|3.6MB/s
+    uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: movie
+    name: 🇭🇰HK_9|4.5MB/s
+    network: grpc
+    port: '10130'
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: '!!str 686c0ef0'
+    server: hk5-r.link-t7.com
+    servername: s0.awsstatic.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+    xudp: true
+  - client-fingerprint: chrome
+    name: 🇭🇰HK_10|2.3MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: c9DdggKaJGSH7FN3JgGbi9ZvsUqOGGpIr7BhzTWeTCo
+      short-id: '!!str '
+    server: 0e05f970-tki800-traezq-1t5n1.hk2.hyhuawei.com
+    servername: download.windowsupdate.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+    xudp: true
+  - client-fingerprint: firefox
+    encryption: none
+    name: 🇭🇰HK_11|1.2MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: QxrH0lkKZn4KpMMbHHQ1fcgs9PxDSUMUJn7vHan_7C0
+      short-id: '!!str '
+    server: 203.198.86.86
+    servername: dl.delivery.mp.microsoft.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+    xudp: true
+  - client-fingerprint: chrome
+    name: 🇭🇰HK_12|1.9MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: QxrH0lkKZn4KpMMbHHQ1fcgs9PxDSUMUJn7vHan_7C0
+      short-id: '!!str '
+    server: df132ade-tki800-traezq-1t5n1.nw4.hyhuawei.com
+    servername: dl.delivery.mp.microsoft.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: ea800f9e-ca6c-11ef-8e74-f23c913c8d2b
+    xudp: true
+  - name: 🇭🇰HK_13|3.9MB/s
     password: <password>
     port: 8443
     server: 61711f60-tdups0-tf8z9r-1pr35.hkt.cdnhuawei.com
