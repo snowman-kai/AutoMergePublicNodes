@@ -46,9 +46,23 @@ proxies:
     tls: false
     type: vmess
     uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  - alterId: 0
+    cipher: auto
+    name: 🇭🇰HK_2|5.1MB/s
+    network: ws
+    port: 16632
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+    ws-opts:
+      headers:
+        Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+      path: /
   - alterId: '0'
     cipher: auto
-    name: 🇭🇰HK_4|3.0MB/s
+    name: 🇭🇰HK_3|5.2MB/s
     network: ws
     port: '16632'
     server: planb.mojcn.com.linuxlh.xin

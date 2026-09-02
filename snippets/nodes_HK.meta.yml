@@ -57,7 +57,7 @@ proxies:
     grpc-opts:
       grpc-mode: gun
       grpc-service-name: movie
-    name: 🇭🇰HK_1|4.2MB/s
+    name: 🇭🇰HK_1|2.9MB/s
     network: grpc
     port: 10128
     reality-opts:
@@ -69,41 +69,23 @@ proxies:
     type: vless
     udp: true
     uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-  - client-fingerprint: chrome
-    grpc-opts:
-      grpc-mode: gun
-      grpc-service-name: movie
-    name: 🇭🇰HK_2|5.3MB/s
-    network: grpc
-    port: 10129
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: '!!str 686c0ef0'
-    server: hk4-r.link-t7.com
-    servername: s0.awsstatic.com
-    tls: true
-    type: vless
-    uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: movie
-    name: 🇭🇰HK_3|5.3MB/s
-    network: grpc
-    port: '10129'
-    reality-opts:
-      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-      short-id: '!!str 686c0ef0'
-    server: hk4-r.link-t7.com
-    servername: s0.awsstatic.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: 🇭🇰HK_2|5.1MB/s
+    network: ws
+    port: 16632
+    server: planb.mojcn.com.linuxlh.xin
+    skip-cert-verify: true
+    tls: false
+    type: vmess
+    uuid: cefbe234-bcc6-4558-ab7b-1030e331e6a5
+    ws-opts:
+      headers:
+        Host: d052c66d50dcf7c3cfab75ed7f8e8322.mobgslb.tbcache.com
+      path: /
   - alterId: '0'
     cipher: auto
-    name: 🇭🇰HK_4|3.0MB/s
+    name: 🇭🇰HK_3|5.2MB/s
     network: ws
     port: '16632'
     server: planb.mojcn.com.linuxlh.xin
@@ -122,7 +104,7 @@ proxies:
     grpc-opts:
       grpc-mode: gun
       grpc-service-name: movie
-    name: 🇭🇰HK_5|4.7MB/s
+    name: 🇭🇰HK_4|5.2MB/s
     network: grpc
     packet-encoding: xudp
     port: 10130
@@ -135,13 +117,9 @@ proxies:
     tls: true
     type: vless
     uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
-  - fingerprint: ''
-    name: 🇭🇰HK_6|4.0MB/s
-    password: zssrOQ
-    port: '7008'
-    server: api.meituan88.com
-    skip-cert-verify: true
-    sni: globalnetworktraffic.com
-    type: anytls
-    udp: true
-    username: zssrOQ
+  - name: 🇭🇰HK_5|4.9MB/s
+    password: abc123
+    port: 1080
+    server: 47.239.98.42
+    type: socks5
+    username: abc123
