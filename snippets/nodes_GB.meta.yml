@@ -15,11 +15,11 @@ proxies:
     sni: hopp-legend-se.roxa.org
     tls: false
     type: hysteria2
-  - name: برای اتصال دائمی جوین شو🕖 Tele...
+  - name: '英国 #2'
     password: h_B9x3942fJ9x_Kpx3914KQ_nZ934HFg_rT
     port: 8080
     server: 138.124.0.168
-    skip-cert-verify: false
+    skip-cert-verify: true
     sni: hopp-legend-se.roxa.org
     tls: false
     type: hysteria2
@@ -35,15 +35,7 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 🇬🇧GB_1|1.3MB/s
-    password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-    port: 443
-    server: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
-    sni: 9035056e-t9zts0-tcmken-19les.uk.oshuawei.com
-    tls: true
-    type: http
-    username: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
-  - name: 🇬🇧GB_2|1.8MB/s
+  - name: 🇬🇧GB_1|1.2MB/s
     port: 443
     server: 212.102.63.61
     skip-cert-verify: true

@@ -25,6 +25,16 @@ proxies:
     sni: vk.com
     tls: false
     type: hysteria2
+  - name: 🎡67@oneclickvpnkeys
+    obfs: salamander
+    obfs-password: 73221641ddc56c49b02bf110ac85afdb
+    password: 5319f194c3164cd0f0dce502e83d60aa
+    port: 443
+    server: 23.95.28.131
+    skip-cert-verify: true
+    sni: www.bing.com
+    tls: false
+    type: hysteria2
   - alpn:
       - h3
     client-fingerprint: chrome
@@ -81,28 +91,49 @@ proxies:
     skip-cert-verify: true
     sni: t.me%2Fripaojiedian
     type: trojan
-  - cipher: aes-256-cfb
-    name: 🇺🇸US_1|1.1MB/s
-    password: 7eadc6dbe2ae
-    port: 65443
-    server: 121.46.230.233
-    type: ss
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_1|1.5MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: EVhq2BxKuw2Cody1DmF_HPvUYKwzdXbHP47blUv-eRM
+      short-id: '!!str 55ab5559e3a6d10a'
+    server: 5.34.178.120
+    servername: www.cloudflare.com
+    tls: true
+    type: vless
     udp: true
-  - name: 🇺🇸US_2|2.5MB/s
+    uuid: 9063f9fb-e88a-4ee0-b4a4-a92ca7316a9f
+  - client-fingerprint: safari
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_2|3.2MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 5_MloClTTO79-bqfkRbi0RYZ_16euPypEN8NQ4-XaD0
+      short-id: '!!str 9c904d85ab262d50'
+    server: 38.244.20.152
+    servername: www.apple.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5e79d74e-cca9-4605-860e-a984de0fccf0
+  - name: 🇺🇸US_3|3.1MB/s
     password: None
     port: 443
-    server: efr-marktplatz.club
-    skip-cert-verify: false
+    server: jewelscollecti.icu
+    skip-cert-verify: true
     tls: true
     type: http
     username: null
-  - name: US_speednode_0134
+  - name: 🇺🇸US_4|1.9MB/s
+    password: 'null'
     port: 443
-    server: voteshirleysew.club
-    sni: voteshirleysew.club
+    server: kimberlymilano.icu
     tls: true
     type: http
-    udp: true
+    username: 'null'
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
     name: US_speednode_0130
@@ -146,6 +177,12 @@ proxies:
     port: 443
     server: fan.365747.xyz
     skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: US_speednode_0134
+    port: 443
+    server: voteshirleysew.club
     tls: true
     type: http
     udp: true
