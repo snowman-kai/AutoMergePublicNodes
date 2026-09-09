@@ -19,8 +19,7 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 新加坡3|@ripaojiedian
-    network: tcp
+  - name: 🇸🇬 新加坡3|@ripaojiedian
     password: BxceQaOe
     port: 41142
     server: 54.251.190.150
