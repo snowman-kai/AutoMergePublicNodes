@@ -35,51 +35,26 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 🇬🇧GB_1|1.0MB/s
-    port: 443
-    server: 37.120.233.50
-    skip-cert-verify: true
-    tls: true
-    type: http
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
-    name: 🇬🇧GB_2|1.1MB/s
-    port: 443
+    name: 🇬🇧GB_1|1.1MB/s
+    network: tcp
+    port: '443'
     reality-opts:
       public-key: F2VfBr2UmjDTErB_oruvW5aIvzH_xGfM2AW5_w-DF0I
-    server: 2.26.178.166
+      short-id: '!!str '
+    server: 2.26.178.138
     servername: localhost
-    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
     uuid: 6429d27e-a7d4-4e04-ae57-e88243fbbfe3
-  - name: 🇬🇧GB_3|1.9MB/s
+    xudp: true
+  - name: 🇬🇧GB_2|1012KB/s
     password: None
     port: 443
-    server: 212.102.63.1
+    server: 37.120.233.34
     skip-cert-verify: true
     tls: true
     type: http
     username: null
-  - name: 🇬🇧GB_4|3.7MB/s
-    port: 3118
-    server: 154.61.56.215
-    type: http
-  - name: 🇬🇧GB_5|1.1MB/s
-    port: 443
-    server: 212.102.63.31
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - encryption: none
-    grpc-opts:
-      grpc-service-name: vless
-    name: 🇬🇧GB_6|1.6MB/s
-    network: grpc
-    port: '2083'
-    server: 66.90.105.210
-    type: vless
-    udp: true
-    uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-    xudp: true
