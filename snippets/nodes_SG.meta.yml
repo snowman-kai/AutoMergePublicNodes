@@ -15,10 +15,19 @@ proxies:
     skip-cert-verify: true
     sni: t.me%252Fripaojiedian
     type: trojan
-  - name: 🇸🇬SG_1|2.3MB/s
-    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    port: 20562
-    server: mszz.mangshe.xyz
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
+  - client-fingerprint: chrome
+    grpc-opts:
+      grpc-mode: gun
+      grpc-service-name: update
+    name: 🇸🇬SG_1|3.5MB/s
+    network: grpc
+    port: 10036
+    reality-opts:
+      public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+      short-id: '!!str 686c0ef0'
+    server: sg1-r.link-t7.com
+    servername: s0.awsstatic.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 7134DB35-F254-4468-BA00-D9C099CF5AF7

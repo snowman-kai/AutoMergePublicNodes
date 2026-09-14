@@ -3,7 +3,7 @@ proxies:
     grpc-opts:
       grpc-mode: gun
       grpc-service-name: update
-    name: 🇰🇷KR_1|5.3MB/s
+    name: 🇰🇷KR_1|2.2MB/s
     network: grpc
     port: 10048
     reality-opts:
@@ -19,7 +19,7 @@ proxies:
     grpc-opts:
       grpc-mode: gun
       grpc-service-name: update
-    name: 🇰🇷KR_2|4.6MB/s
+    name: 🇰🇷KR_2|3.6MB/s
     network: grpc
     port: 10049
     reality-opts:
