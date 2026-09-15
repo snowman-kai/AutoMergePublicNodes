@@ -45,13 +45,27 @@ proxies:
     skip-cert-verify: true
     sni: t.me%2Fripaojiedian
     type: trojan
-  - name: 🇺🇸US_1|1.4MB/s
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
-    server: anytls2.864106.xyz
+  - name: 🇺🇸US_1|1.0MB/s
+    port: 443
+    server: mmgr.club
     skip-cert-verify: true
-    sni: anytls2.864106.xyz
-    type: anytls
+    sni: mmgr.club
+    tls: true
+    type: http
+  - name: 🇺🇸US_2|1.4MB/s
+    password: 'null'
+    port: 443
+    server: jewelscollecti.icu
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: 'null'
+  - cipher: aes-256-cfb
+    name: 🇺🇸US_3|1.1MB/s
+    password: amazonskr05
+    port: '443'
+    server: 3.144.113.215
+    type: ss
     udp: true
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
