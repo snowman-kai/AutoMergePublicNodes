@@ -2,7 +2,7 @@ proxies:
   - client-fingerprint: chrome
     grpc-opts:
       grpc-service-name: update
-    name: 🇰🇷KR_1|4.2MB/s
+    name: 🇰🇷KR_1|1.2MB/s
     network: grpc
     port: 10048
     reality-opts:
