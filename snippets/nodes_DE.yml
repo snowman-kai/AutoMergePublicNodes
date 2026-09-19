@@ -3,6 +3,6 @@ proxies:
     name: 🇩🇪DE_2|1.1MB/s
     password: amazonskr05
     port: '443'
-    server: 63.185.90.235
+    server: 3.70.156.210
     type: ss
     udp: true

@@ -28,11 +28,13 @@ proxies:
     sni: t.me%2Fripaojiedian
     type: trojan
   - client-fingerprint: chrome
-    name: 🇺🇸US_1|2.6MB/s
+    encryption: none
+    name: 🇺🇸US_1|1.5MB/s
     network: xhttp
-    port: 443
+    port: '443'
     reality-opts:
       public-key: JeVpfwIwteGa8xfysPJUzrbHgmOPyLGomRqyH8Pi7W0
+      short-id: '!!str '
     server: 103.175.79.4
     servername: download.nvidia.com
     tls: true
@@ -40,38 +42,54 @@ proxies:
     udp: true
     uuid: b2141c97-76af-ff6f-839b-70a53e23aad9
     xhttp-opts:
-      host: download.nvidia.com
       mode: auto
       path: /
-  - name: 🇺🇸US_2|1.0MB/s
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 19000
-    server: anytls2.864106.xyz
-    skip-cert-verify: true
-    sni: anytls2.864106.xyz
-    type: anytls
-  - name: 🇺🇸US_3|2.6MB/s
+    xudp: true
+  - cipher: aes-256-cfb
+    name: 🇺🇸US_2|1.2MB/s
+    password: amazonskr05
+    port: '443'
+    server: 3.148.195.154
+    type: ss
+    udp: true
+  - alpn:
+      - http/1.1
+    client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US_3|1.1MB/s
     network: ws
-    port: 443
-    server: www.visa.com.hk
-    servername: us-lax.xhs152.shop
-    skip-cert-verify: true
+    port: '443'
+    server: 104.21.62.195
+    servername: 3.qq1-0.kdns.fr
     tls: true
     type: vless
     udp: true
-    uuid: ff7cb8d1-b912-46e8-9686-a209c613c614
+    uuid: cb53f904-c979-454f-bf43-621990008148
     ws-opts:
       headers:
-        Host: us-lax.xhs152.shop
-      path: /announcement?ed=2048
-  - name: 🇺🇸US_4|3.5MB/s
-    password: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
-    port: 443
-    server: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
-    sni: 5446dfd3-tcxds0-tdd7ea-19xg1.sj.oshuawei.com
+        Host: 3.qq1-0.kdns.fr
+        User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+      path: /LNbYtR09FXg1AmmjhdiHvR8v
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US_4|1.1MB/s
+    network: ws
+    port: '443'
+    server: 172.67.223.78
+    servername: 4-m17.JordaN-LiNk.kdnS.fR
     tls: true
-    type: http
-    username: e1dee7c0-cff7-11eb-a8bf-f23c91cfbbc9
+    type: vless
+    udp: true
+    uuid: a1a6a3be-2bf9-46a2-bc24-328306e49ab7
+    ws-opts:
+      headers:
+        Host: 4-m17.joRDan-linK.KDnS.FR
+        User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; vivo 1603 Build/MMB29M) AppleWebKit/537.36
+          (KHTML, like Gecko) Chrome/58.0.3029.83 Mobile Safari/537.36
+      path: /fVs1qv0xm8dxmnwuaPwokxgY4XlP
+    xudp: true
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
     name: US_speednode_0130
