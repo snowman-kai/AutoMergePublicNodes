@@ -1,4 +1,37 @@
 proxies:
+  - name: 'A - 🇫🇷 FR 01 TG: @nodpai'
+    network: ws
+    port: 8880
+    server: 45.85.119.30
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: vms.lifetime56.workers.dev
+  - name: 'A - 🇫🇷 FR 02 TG: @nodpai'
+    network: ws
+    port: 8880
+    server: 66.81.247.40
+    type: vless
+    uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+    ws-opts:
+      headers:
+        Host: vms.lifetime44.workers.dev
+      path: /?ed=2560&https://t.me/youtube@ZYFXS🇨🇳
+  - client-fingerprint: firefox
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 'A - 🇫🇷 FR 03 TG: @nodpai'
+    network: tcp
+    port: 7443
+    reality-opts:
+      public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI
+    security: reality
+    server: 152.89.253.239
+    servername: ya.ru
+    tls: true
+    type: vless
+    uuid: 54a54ea0-4409-4030-ad9b-44c45849c05a
   - name: 法国
     password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
@@ -7,3 +40,34 @@ proxies:
     sni: 35.181.169.140
     tls: false
     type: hysteria2
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc-common3
+    name: 🇫🇷FR_1|3.3MB/s
+    network: grpc
+    port: '35108'
+    reality-opts:
+      public-key: X_lOw5Zz4SJBa1cRHV4dAq5msYE-ClY5-WNcBmBWRxg
+      short-id: '!!str 52add08b86a5ccea'
+    server: 152.228.139.33
+    servername: www.nvidia.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: 81dc0b61-f9fe-4ad6-8b4e-b8c067b73712
+    xudp: true
+  - name: 🇫🇷FR_2|3.7MB/s
+    port: 6103
+    server: 87.98.174.157
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇫🇷FR_3|2.1MB/s
+    password: None
+    port: 443
+    server: 149.102.245.65
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: null
