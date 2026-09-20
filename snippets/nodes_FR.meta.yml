@@ -7,10 +7,3 @@ proxies:
     sni: 35.181.169.140
     tls: false
     type: hysteria2
-  - cipher: aes-256-cfb
-    name: 🇫🇷FR_1|1.6MB/s
-    password: amazonskr05
-    port: 443
-    server: 15.237.196.230
-    type: ss
-    udp: true
