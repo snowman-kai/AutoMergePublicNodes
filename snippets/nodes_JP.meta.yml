@@ -29,19 +29,11 @@ proxies:
     port: 40002
     server: 103.236.66.4
     type: ss
-  - auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    name: 🇯🇵JP_1|2.5MB/s
-    password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-    port: 20561
-    server: msjp1.mangshe.xyz
-    skip-cert-verify: true
-    sni: www.microsoft.com
-    type: hysteria2
   - client-fingerprint: chrome
-    name: 🇯🇵JP_2|2.7MB/s
+    name: 🇯🇵JP_1|1.3MB/s
     network: ws
     port: 443
-    server: 35.72.179.15
+    server: 92.113.124.228
     servername: shuma.ccwu.cc
     skip-cert-verify: true
     tls: true
@@ -53,7 +45,7 @@ proxies:
         Host: shuma.ccwu.cc
       path: /
   - client-fingerprint: chrome
-    name: 🇯🇵JP_3|1.4MB/s
+    name: 🇯🇵JP_2|2.4MB/s
     network: ws
     port: 443
     server: 161.33.29.51
@@ -68,17 +60,17 @@ proxies:
         Host: shuma.ccwu.cc
       path: /
   - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇯🇵JP_5|2.6MB/s
-    network: tcp
-    port: '19001'
-    reality-opts:
-      public-key: g1f1wLjim5gOVGnI5LGUV0dL4iFXPoiepOPZfSxJe14
-      short-id: '!!str '
-    server: jpga01.jumperservice.com
-    servername: www.speedtest.org
+    name: 🇯🇵JP_3|1.4MB/s
+    network: ws
+    port: 443
+    server: 45.202.254.133
+    servername: shuma.ccwu.cc
+    skip-cert-verify: true
     tls: true
     type: vless
     udp: true
-    uuid: 0709ba80-f353-4636-85ce-43b82990ac2d
-    xudp: true
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    ws-opts:
+      headers:
+        Host: shuma.ccwu.cc
+      path: /

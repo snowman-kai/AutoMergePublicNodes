@@ -5,36 +5,13 @@ proxies:
     port: 30001
     server: 36.33.35.105
     type: ss
-  - alterId: '0'
-    cipher: auto
-    name: 🇹🇼TW_3|2.0MB/s
-    network: ws
+  - fingerprint: ''
+    name: 🇹🇼TW_1|2.1MB/s
+    password: 9sK2mP8xQ7vL3nZ6
     port: '443'
-    server: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
-    servername: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
-    skip-cert-verify: false
-    tls: true
-    type: vmess
+    server: 6ivh.pnuqcnp.cn
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
     udp: true
-    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-    ws-opts:
-      headers:
-        Host: dee2309db4se3g5sds35g4s3dg.oylfmxz.cn
-      path: /
-    xudp: true
-  - alterId: '0'
-    cipher: auto
-    name: 🇹🇼TW_2|1.1MB/s
-    network: ws
-    port: '443'
-    server: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
-    servername: dee2309db4se3grs6e8hg4w61sd53g1.oylfmxz.cn
-    skip-cert-verify: false
-    tls: true
-    type: vmess
-    udp: true
-    uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
-    ws-opts:
-      headers: {}
-      path: /
-    xudp: true
+    username: 9sK2mP8xQ7vL3nZ6

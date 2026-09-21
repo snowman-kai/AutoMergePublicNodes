@@ -1,5 +1,5 @@
 proxies:
-  - name: 🇨🇭CH_1|1.6MB/s
+  - name: 🇨🇭CH_4|2.8MB/s
     password: None
     port: 443
     server: 31.7.62.50
@@ -7,11 +7,24 @@ proxies:
     tls: true
     type: http
     username: null
-  - name: 🇨🇭CH_2|2.2MB/s
-    password: None
+  - client-fingerprint: chrome
+    name: 🇨🇭CH_2|1.0MB/s
+    network: ws
+    port: 8443
+    server: 107.189.2.206
+    servername: shuma.ccwu.cc
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: c18b978e-1c4e-415c-8bea-07942b563a64
+    ws-opts:
+      headers:
+        Host: shuma.ccwu.cc
+      path: /
+  - name: 🇨🇭CH_3|2.8MB/s
     port: 9443
     server: 37.120.213.210
     skip-cert-verify: true
     tls: true
     type: http
-    username: null
