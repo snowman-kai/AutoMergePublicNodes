@@ -29,11 +29,3 @@ proxies:
     sni: www.bing.com
     tls: false
     type: hysteria2
-  - name: 🇩🇪DE_1|2.5MB/s
-    password: None
-    port: 443
-    server: 149.36.50.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
