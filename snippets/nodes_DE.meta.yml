@@ -48,9 +48,15 @@ proxies:
     sni: www.bing.com
     tls: false
     type: hysteria2
-  - name: 🇩🇪DE_1|1.2MB/s
-    port: 443
-    server: 149.36.50.1
+  - down: ''
+    fingerprint: ''
+    name: 🇩🇪DE_1|2.0MB/s
+    obfs: ''
+    obfs-password: ''
+    password: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67
+    port: '9443'
+    server: 95.85.252.78
     skip-cert-verify: true
-    tls: true
-    type: http
+    sni: ''
+    type: hysteria2
+    up: ''
