@@ -9,24 +9,28 @@ proxies:
     port: 36604
     server: gd.bjnet2.com
     type: ss
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇸🇬SG_1|1.8MB/s
-    port: 3389
-    reality-opts:
-      public-key: s5t86eacAGCBMt6TWPF3Zhq8KFkBnmNZY3ZkKBrxHkY
-      short-id: '!!str a4115cac'
-    server: 185.115.207.173
-    servername: www.ntu.edu.sg
-    tls: true
-    type: vless
-    uuid: 596be9d9-0bb9-41bc-bff5-1adb483cbc32
-  - name: 🇸🇬SG_2|1.5MB/s
-    password: ''
-    port: 9443
-    server: 149.88.99.209
+  - fingerprint: ''
+    name: 🇸🇬SG_1|3.8MB/s
+    password: 13f0acfa-38c1-4e82-a758-583aa31740df
+    port: '60005'
+    server: svip.skycon808.com
     skip-cert-verify: true
-    tls: true
-    type: http
+    sni: xjp18.2uuzhe.com
+    type: anytls
     udp: true
-    username: ''
+    username: 13f0acfa-38c1-4e82-a758-583aa31740df
+  - encryption: none
+    name: 🇸🇬SG_2|1.2MB/s
+    network: ws
+    port: '8880'
+    server: codecanyon.net
+    type: vless
+    udp: true
+    uuid: baaa882d-ac50-4bba-bd8d-5486f7d34005
+    ws-opts:
+      headers:
+        Host: blue-water-924c.174-235.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /pyip=ProxyIP.SG.CMLiussss.net
+    xudp: true
