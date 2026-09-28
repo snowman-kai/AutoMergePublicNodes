@@ -7,16 +7,3 @@ proxies:
     sni: paris.nerabotaet.com
     tls: false
     type: hysteria2
-  - name: 🇫🇷FR_1|1.7MB/s
-    password: github.com/Alvin9999-newpac/fanqiang
-    port: 30099
-    server: ip5.934618.xyz
-    sni: ip5.934618.xyz
-    type: anytls
-    udp: true
-  - name: 🇫🇷FR_2|1.3MB/s
-    port: 443
-    server: 130.180.211.56
-    skip-cert-verify: true
-    tls: true
-    type: http
