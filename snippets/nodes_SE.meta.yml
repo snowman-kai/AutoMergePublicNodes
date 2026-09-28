@@ -9,7 +9,15 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 🇸🇪SE_1|3.0MB/s
+  - name: 🇸🇪SE_1|1.9MB/s
+    password: None
+    port: 443
+    server: 146.70.242.146
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: null
+  - name: 🇸🇪SE_2|4.0MB/s
     password: None
     port: 443
     server: 146.70.242.130
@@ -17,18 +25,9 @@ proxies:
     tls: true
     type: http
     username: null
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇸🇪SE_2|2.7MB/s
-    network: tcp
-    port: '2083'
-    reality-opts:
-      public-key: wJgBZNx487TIQivnqGuyDyyN6iKcFTy64khGSOFbeyo
-      short-id: '!!str 4d123bebfae16562'
-    server: 130.49.190.43
-    servername: yandex.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 25284368-40d5-4abe-9f56-54a07e88a7af
-    xudp: true
+  - cipher: aes-256-cfb
+    name: 🇸🇪SE_3|2.1MB/s
+    password: amazonskr05
+    port: 443
+    server: 51.20.86.152
+    type: ss

@@ -42,3 +42,10 @@ proxies:
     port: 36608
     server: gd.bjnet2.com
     type: ss
+  - cipher: aes-256-cfb
+    name: 🇺🇸US_2|1.4MB/s
+    password: amazonskr05
+    port: 443
+    server: 100.27.202.4
+    type: ss
+    udp: true
