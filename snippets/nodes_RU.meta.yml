@@ -11,7 +11,7 @@ proxies:
     type: hysteria2
   - client-fingerprint: chrome
     encryption: none
-    name: 🇷🇺RU_1|2.7MB/s
+    name: 🇷🇺RU_1|2.4MB/s
     network: xhttp
     port: '443'
     reality-opts:
@@ -34,15 +34,9 @@ proxies:
         h-max-reusable-secs: 1800-3000
         max-connections: '2'
     xudp: true
-  - down: ''
-    fingerprint: ''
-    name: 🇷🇺RU_2|1.5MB/s
-    obfs: ''
-    obfs-password: ''
-    password: 3f63c86c-ac4a-4900-85cf-4fedf93c2ca5
-    port: '22443'
-    server: 91.240.86.70
+  - name: 🇷🇺RU_2|2.1MB/s
+    port: 443
+    server: 82.147.71.46
     skip-cert-verify: true
-    sni: 91.240.86.70
-    type: hysteria2
-    up: ''
+    tls: true
+    type: http
