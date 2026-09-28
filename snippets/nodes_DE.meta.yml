@@ -29,7 +29,7 @@ proxies:
     sni: www.bing.com
     tls: false
     type: hysteria2
-  - name: 🇩🇪DE_1|1.1MB/s
+  - name: 🇩🇪DE_1|1.4MB/s
     network: ws
     port: 80
     server: 136.244.85.41
@@ -39,3 +39,54 @@ proxies:
     uuid: 9be7fcec-5b90-4cf7-828c-ccbd889fd03c
     ws-opts:
       path: /
+  - name: 🇩🇪DE_2|2.1MB/s
+    network: ws
+    port: 80
+    server: 199.247.7.55
+    tls: false
+    type: vless
+    udp: true
+    uuid: 4c250d79-700a-4968-b50d-bae96983e1d7
+    ws-opts:
+      path: /
+  - encryption: none
+    name: 🇩🇪DE_3|1.4MB/s
+    network: ws
+    port: '8880'
+    server: 172.66.200.130
+    type: vless
+    udp: true
+    uuid: a51d8a82-faec-44f4-8882-441a2e7f0ce4
+    ws-opts:
+      headers:
+        Host: spring-math-5c8c.434.workers.dev
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/50.0.2661.102 Safari/537.36
+      path: /pyip=ProxyIP.KR.CMLiussss.net
+    xudp: true
+  - client-fingerprint: chrome
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_4|1.1MB/s
+    port: 20855
+    reality-opts:
+      public-key: c6Pu0_yAYxIrnYjbwIYLsKB_xhcLsk17BgojLeaIvE8
+      short-id: '!!str efe9'
+    server: 172.104.237.173
+    servername: www.cloudflare.com
+    skip-cert-verify: true
+    tls: true
+    type: vless
+    udp: true
+    uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
+  - name: 🇩🇪DE_5|1.6MB/s
+    port: 443
+    server: 18.159.186.180
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇩🇪DE_6|1.8MB/s
+    port: 443
+    server: 87.249.132.97
+    skip-cert-verify: true
+    tls: true
+    type: http
