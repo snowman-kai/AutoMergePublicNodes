@@ -29,79 +29,13 @@ proxies:
     sni: www.bing.com
     tls: false
     type: hysteria2
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇩🇪DE_1|1.1MB/s
-    network: tcp
-    port: '20855'
-    reality-opts:
-      public-key: c6Pu0_yAYxIrnYjbwIYLsKB_xhcLsk17BgojLeaIvE8
-      short-id: '!!str efe9'
-    server: 172.104.237.173
-    servername: www.cloudflare.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec
-    xudp: true
-  - name: 🇩🇪DE_2|1.2MB/s
+  - name: 🇩🇪DE_1|1.1MB/s
     network: ws
-    port: '8880'
-    server: 104.24.152.211
+    port: 80
+    server: 136.244.85.41
+    tls: false
     type: vless
     udp: true
-    uuid: 2acde116-5949-48d8-a1e6-60a1d2547deb
+    uuid: 9be7fcec-5b90-4cf7-828c-ccbd889fd03c
     ws-opts:
-      headers:
-        Host: lively-pine-093d.144-868.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/61.0.3163.100 Safari/537.36
-      path: /pyip=ProxyIP.JP.CMLiussss.net
-    xudp: true
-  - name: 🇩🇪DE_3|1.6MB/s
-    password: None
-    port: 443
-    server: 149.36.50.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇩🇪DE_4|1.0MB/s
-    port: 443
-    server: 149.36.50.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_6|2.2MB/s
-    port: 443
-    server: 217.154.160.160
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - client-fingerprint: chrome
-    encryption: none
-    grpc-opts:
-      grpc-service-name: cdn.v1.AssetService
-    name: 🇩🇪DE_7|1.3MB/s
-    network: grpc
-    port: 443
-    server: 72.4.65.116
-    servername: assets-de2.pleiades.codes
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b
-    xudp: true
-  - name: 🇩🇪DE_8|3.3MB/s
-    port: 9002
-    server: 158.173.154.4
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_9|1.2MB/s
-    port: 443
-    server: 87.249.132.97
-    skip-cert-verify: true
-    tls: true
-    type: http
+      path: /
