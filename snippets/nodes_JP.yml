@@ -46,7 +46,7 @@ proxies:
       path: /ws-vmess
   - alterId: 0
     cipher: auto
-    name: 🇯🇵JP_1|3.8MB/s
+    name: 🇯🇵JP_3|3.0MB/s
     network: ws
     port: 2083
     server: cdn.sfacg.uk

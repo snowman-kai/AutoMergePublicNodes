@@ -1,20 +1,22 @@
 proxies:
-  - down: ''
-    fingerprint: ''
-    name: 🇫🇷FR_1|1.4MB/s
-    obfs: ''
-    obfs-password: ''
-    password: gf1:gfhysteria2024
-    port: '443'
-    server: 173.212.201.85
+  - name: 🇫🇷183069 | ⚡️Telegram = t.me/S...
+    password: 2561c6b1a3069d3170b4d7e1ecc08c65
+    port: 443
+    server: paris.nerabotaet.com
     skip-cert-verify: true
-    sni: www.docker.com
+    sni: paris.nerabotaet.com
+    tls: false
     type: hysteria2
-    up: ''
-  - name: 🇫🇷FR_2|1.7MB/s
+  - name: 🇫🇷FR_1|1.7MB/s
     password: github.com/Alvin9999-newpac/fanqiang
     port: 30099
     server: ip5.934618.xyz
     sni: ip5.934618.xyz
     type: anytls
     udp: true
+  - name: 🇫🇷FR_2|1.3MB/s
+    port: 443
+    server: 130.180.211.56
+    skip-cert-verify: true
+    tls: true
+    type: http
