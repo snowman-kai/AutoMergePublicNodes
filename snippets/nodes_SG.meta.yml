@@ -29,9 +29,39 @@ proxies:
       headers:
         Host: 6JiziO8PxQAXBAtZ.v.3dns.vip
       path: /ws-vmess
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇸🇬SG_1|2.3MB/s
+    network: ws
+    port: '2096'
+    server: 91.193.58.108
+    servername: free-server.techsonic.dev
+    tls: true
+    type: vless
+    udp: true
+    uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
+    ws-opts:
+      headers:
+        Host: free-server.techsonic.dev
+        User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+          Chrome/v1.0.0 Safari/538.1
+      path: /free-server.techsonic.dev
+    xudp: true
   - down: ''
     fingerprint: ''
-    name: 🇸🇬SG_1|2.1MB/s
+    name: 🇸🇬SG_2|1.0MB/s
+    obfs: ''
+    obfs-password: ''
+    password: f87376e17da040ed04c9665ce8972930
+    port: '50160'
+    server: 138.2.73.238
+    skip-cert-verify: true
+    sni: www.bing.com
+    type: hysteria2
+    up: ''
+  - down: ''
+    fingerprint: ''
+    name: 🇸🇬SG_3|1.4MB/s
     obfs: ''
     obfs-password: ''
     password: f87376e17da040ed04c9665ce8972930
@@ -41,31 +71,7 @@ proxies:
     sni: 138.2.73.238
     type: hysteria2
     up: ''
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: chrome
-    name: 🇸🇬SG_2|2.0MB/s
-    network: ws
-    port: 2096
-    server: 104.17.70.206
-    servername: free-server.techsonic.dev
-    tls: true
-    type: vless
-    udp: true
-    uuid: 6e59d5c5-7aa3-4c36-a4c4-e3b899525ed2
-    ws-opts:
-      headers:
-        Host: free-server.techsonic.dev
-      path: /free-server.techsonic.dev
-  - name: 🇸🇬SG_3|2.7MB/s
-    password: 19f72087-4591-4d72-930b-2697078ec2be
-    port: 18333
-    server: sg1.xiaoliyu.cyou
-    skip-cert-verify: true
-    sni: sg1.xiaoliyu.cyou
-    type: hysteria2
-  - name: 🇸🇬SG_4|2.7MB/s
+  - name: 🇸🇬SG_4|3.2MB/s
     password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
     port: 2060
     server: xjp2.mangshe.xyz
