@@ -1,9 +1,13 @@
 proxies:
-  - name: 🇫🇷183069 | ⚡️Telegram = t.me/S...
-    password: 2561c6b1a3069d3170b4d7e1ecc08c65
-    port: 443
-    server: paris.nerabotaet.com
+  - down: ''
+    fingerprint: ''
+    name: 🇫🇷FR_1|3.6MB/s
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: '443'
+    server: vpn-fr-002.fastervpn.world
     skip-cert-verify: true
-    sni: paris.nerabotaet.com
-    tls: false
+    sni: 127.0.0.1
     type: hysteria2
+    up: ''
