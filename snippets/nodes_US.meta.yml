@@ -37,68 +37,32 @@ proxies:
       headers:
         Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
       path: /ws-vmess
-  - name: 🇺🇸US_1|2.5MB/s
+  - auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+    name: 🇺🇸US_1|2.2MB/s
     password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
     port: 2060
     server: mg.mangshe.xyz
     skip-cert-verify: true
     sni: mg.mangshe.xyz
     type: hysteria2
-  - name: 🇺🇸US_2|3.6MB/s
-    port: 443
-    server: 129.153.93.183
+  - name: 🇺🇸US_2|2.1MB/s
+    password: 19f72087-4591-4d72-930b-2697078ec2be
+    port: 18333
+    server: us3.xiaoliyu.cyou
     skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_3|2.8MB/s
+    type: hysteria2
+  - down: ''
+    fingerprint: ''
+    name: 🇺🇸US_3|2.3MB/s
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
     port: 443
-    server: 12.202.180.10
+    server: vpn-us-004.fastervpn.world
     skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_4|3.5MB/s
-    password: e4b72b531a2d10900519
-    port: 443
-    server: 147.182.216.4
-    sni: 93b6d804.acsnet.co
-    tls: true
-    type: http
-    username: testuser1
-  - name: 🇺🇸US_5|3.4MB/s
-    port: 443
-    server: 52.15.98.63
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_6|2.0MB/s
-    port: 443
-    server: 162.244.227.36
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_7|3.3MB/s
-    port: 8443
-    server: 18.206.28.143
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - alpn:
-      - h2
-      - http/1.1
-    client-fingerprint: ios
-    encryption: none
-    name: 🇺🇸US_8|2.4MB/s
-    network: xhttp
-    port: '443'
-    server: victoryprovpn-production-d0b8.up.railway.app
-    tls: true
-    type: vless
-    udp: true
-    uuid: 79367d62-aaa2-3a71-42cf-9ffe1f04e9b1
-    xhttp-opts:
-      mode: packet-up
-      path: /xhttp-siz10/packet-up/79367d62-aaa2-3a71-42cf-9ffe1f04e9b1
-    xudp: true
+    sni: vpn-us-004.fastervpn.world
+    type: hysteria2
+    up: ''
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
     name: US_speednode_0130
