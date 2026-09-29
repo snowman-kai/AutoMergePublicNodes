@@ -44,20 +44,10 @@ proxies:
       headers:
         Host: kneNaKHeSXnZH259.v.3dns.vip
       path: /ws-vmess
-  - alterId: '0'
-    cipher: auto
-    name: 🇯🇵JP_1|2.7MB/s
-    network: ws
-    port: '443'
-    server: w12.luoli.de
-    servername: w12.luoli.de
-    skip-cert-verify: false
-    tls: true
-    type: vmess
+  - auth: 96ab5cd282733fd4c312a61f972f330a
+    name: 🇯🇵JP_1|2.9MB/s
+    password: 96ab5cd282733fd4c312a61f972f330a
+    port: 443
+    server: vp3.yysyy.online
+    type: hysteria2
     udp: true
-    uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
-    ws-opts:
-      headers:
-        Host: w12.luoli.de
-      path: /v2ws
-    xudp: true

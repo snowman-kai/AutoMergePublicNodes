@@ -37,29 +37,32 @@ proxies:
       headers:
         Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
       path: /ws-vmess
-  - name: 🇺🇸US_1|2.0MB/s
-    port: 9443
-    server: 198.44.138.27
-    skip-cert-verify: true
+  - client-fingerprint: random
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_1|3.1MB/s
+    network: tcp
+    port: 443
+    reality-opts:
+      public-key: 8i7j9_b2KyQC8iR-jEMGl-d2whPkeKt36mutUkZr9ng
+      short-id: '!!str 3477a74403cf4af9'
+    server: 154.64.235.117
+    servername: gateway.icloud.com
     tls: true
-    type: http
-  - down: ''
-    fingerprint: ''
-    name: 🇺🇸US_2|1.6MB/s
-    obfs: ''
-    obfs-password: ''
-    password: 0db8b567-77f3-4698-80c7-4d7889be8f02
-    port: 50524
-    server: 108.181.6.53
-    skip-cert-verify: true
-    sni: iosapps.itunes.apple.com
-    type: hysteria2
-    up: ''
-  - name: 🇺🇸US_3|1.8MB/s
+    type: vless
+    udp: true
+    uuid: 82C94E17-B27E-4356-82C1-2F9C79B0CF6D
+  - name: 🇺🇸US_2|3.2MB/s
     port: 443
     server: 107.167.18.122
     type: http
-  - name: 🇺🇸US_4|1.2MB/s
+  - name: 🇺🇸US_3|1012KB/s
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 19000
+    server: anytls2.864106.xyz
+    skip-cert-verify: true
+    sni: anytls2.864106.xyz
+    type: anytls
+  - name: 🇺🇸US_4|1.3MB/s
     port: 443
     server: 12.202.180.10
     skip-cert-verify: true
@@ -83,9 +86,9 @@ proxies:
       headers:
         Host: mao.mao114514.kdns.fr
       path: /glasspanel/guest000_0_5de14443985f/
-  - name: 🇺🇸US_6|3.0MB/s
+  - name: 🇺🇸US_6|2.8MB/s
     port: 443
-    server: 68.235.56.51
+    server: 68.235.56.59
     skip-cert-verify: true
     tls: true
     type: http
