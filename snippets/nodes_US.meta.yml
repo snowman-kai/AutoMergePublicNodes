@@ -44,33 +44,29 @@ proxies:
       headers:
         Host: bJ1Aa2ZyJxYamYuK.v.3dns.vip
       path: /ws-vmess
-  - name: 🇺🇸US_1|1.0MB/s
+  - down: ''
+    fingerprint: ''
+    name: 🇺🇸US_1|2.2MB/s
+    obfs: ''
+    obfs-password: ''
+    password: gf1:gfhysteria2024
+    port: '443'
+    server: 66.94.121.46
+    skip-cert-verify: true
+    sni: 66.94.121.46
+    type: hysteria2
+    up: ''
+  - name: 🇺🇸US_2|1.0MB/s
     password: github.com/Alvin9999-newpac/fanqiang
     port: 19000
     server: anytls2.864106.xyz
     skip-cert-verify: true
     sni: anytls2.864106.xyz
     type: anytls
-  - name: 🇺🇸US_2|1.1MB/s
+  - name: 🇺🇸US_3|1.2MB/s
     port: 443
-    server: 68.235.56.51
-    skip-cert-verify: true
-    tls: true
+    server: 107.167.18.122
     type: http
-  - name: 🇺🇸US_3|3.3MB/s
-    port: 443
-    server: 68.235.56.59
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_4|3.6MB/s
-    password: ''
-    port: '8443'
-    server: 154.81.36.92
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
     name: US_speednode_0130

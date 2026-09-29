@@ -51,17 +51,3 @@ proxies:
       headers:
         Host: kneNaKHeSXnZH259.v.3dns.vip
       path: /ws-vmess
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇯🇵JP_1|5.2MB/s
-    network: tcp
-    port: 20270
-    reality-opts:
-      public-key: gaFVpIOW9RJGuFFisfXVvITfYY5ikKn-4gB89ZQCFHI
-      short-id: '!!str 89fecfdaf45cd76d'
-    server: jp-1.gsafevpnapi.com
-    servername: www.yahoo.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 976bf067-9865-4184-938a-204463938c09
