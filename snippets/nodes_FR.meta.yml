@@ -1,1 +1,20 @@
-proxies: []
+proxies:
+  - down: ''
+    fingerprint: ''
+    name: 🇫🇷FR_1|4.3MB/s
+    obfs: ''
+    obfs-password: ''
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: '443'
+    server: vpn-fr-002.fastervpn.world
+    skip-cert-verify: true
+    sni: vpn-fr-002.fastervpn.world
+    type: hysteria2
+    up: ''
+  - name: 🇫🇷FR_2|1.9MB/s
+    password: github.com/Alvin9999-newpac/fanqiang
+    port: 30099
+    server: ip5.934618.xyz
+    sni: ip5.934618.xyz
+    type: anytls
+    udp: true

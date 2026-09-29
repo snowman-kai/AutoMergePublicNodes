@@ -19,3 +19,13 @@ proxies:
     sni: gift-catalog.aroonia.ir
     tls: false
     type: hysteria2
+  - name: 🇩🇪DE_1|1.4MB/s
+    network: ws
+    port: 80
+    server: 199.247.23.162
+    tls: false
+    type: vless
+    udp: true
+    uuid: 306dcb21-d02d-49dd-8ec7-0005b972b47a
+    ws-opts:
+      path: /
