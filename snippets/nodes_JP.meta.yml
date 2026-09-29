@@ -44,17 +44,20 @@ proxies:
       headers:
         Host: kneNaKHeSXnZH259.v.3dns.vip
       path: /ws-vmess
-  - name: 🇯🇵JP_1|2.7MB/s
+  - alterId: '0'
+    cipher: auto
+    name: 🇯🇵JP_1|2.7MB/s
     network: ws
-    port: '8880'
-    server: 172.67.179.98
-    type: vless
+    port: '443'
+    server: w12.luoli.de
+    servername: w12.luoli.de
+    skip-cert-verify: false
+    tls: true
+    type: vmess
     udp: true
-    uuid: 56c673ba-865a-48ec-8dc0-fd7133a7ecfd
+    uuid: 42a99644-b90b-3627-8809-a2d6c4078b59
     ws-opts:
       headers:
-        Host: curly-surf-4401.75-08c.workers.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/43.0.2357.65 Safari/537.36
-      path: /
+        Host: w12.luoli.de
+      path: /v2ws
     xudp: true
