@@ -20,34 +20,83 @@ proxies:
     tls: false
     type: hysteria2
   - client-fingerprint: chrome
+    name: 🇩🇪DE_1|2.0MB/s
+    network: ws
+    port: 443
+    server: 172.67.76.40
+    servername: ccc.010304.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: d342d11e-d224-4463-b982-532309285094
+    ws-opts:
+      headers:
+        Host: ccc.010304.xyz
+      path: /
+  - client-fingerprint: safari
     flow: xtls-rprx-vision
-    name: 🇩🇪DE_1|1.7MB/s
+    name: 🇩🇪DE_2|3.2MB/s
     network: tcp
     port: 443
     reality-opts:
-      public-key: kGdP0X0DwcMbXovNjpQ3o7ubghwu1dedhcoFtLFOnBk
-      short-id: '!!str 1fc709'
-    server: agroup.de1.ilovegairport.com
-    servername: eu-central-1.console.aws.amazon.com
+      public-key: -YpJ_Xav7sUkd77sEZjg58Pn6dnNpj5himuUS-OFDh4
+      short-id: '!!str fd44fcf1c3afa0af'
+    server: 2.27.211.129
+    servername: www.icloud.com
     tls: true
     type: vless
     udp: true
-    uuid: 129e26fe-cee2-4786-9261-b29668337829
+    uuid: 0afdcc75-e449-418d-8eac-c5b657363443
   - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_2|1.7MB/s
+    name: 🇩🇪DE_3|1.8MB/s
     network: ws
-    port: '443'
-    server: 104.21.69.30
-    servername: 05agj.gkef.zhs.hh.vavava.kdns.fr
+    port: '8443'
+    server: shop.neexbyte.ir
     tls: true
     type: vless
     udp: true
-    uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+    uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
     ws-opts:
       headers:
-        Host: 05agj.gkef.zhs.hh.vavava.kdns.fr
-        User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/53.0.2785.143 Safari/537.36
-      path: /?ed=2560
+        Host: shop.neexbyte.ir
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/66.0.3359.139 Safari/537.36
+      path: /
+    xudp: true
+  - alpn:
+      - h2
+    grpc-opts:
+      grpc-service-name: ajv
+    name: 🇩🇪DE_4|1.9MB/s
+    network: grpc
+    password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
+    port: 443
+    server: 31.77.168.21
+    skip-cert-verify: true
+    sni: d3-de2.cloud-cdn.xyz
+    type: trojan
+    udp: true
+  - name: 🇩🇪DE_5|2.8MB/s
+    password: None
+    port: 443
+    server: 149.36.50.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: null
+  - client-fingerprint: firefox
+    encryption: none
+    name: 🇩🇪DE_6|1.8MB/s
+    network: xhttp
+    port: '443'
+    server: 50.7.29.181
+    servername: id-24f9d11d.ferrin.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 24f9d11d-ceca-4f75-93ca-ad143ca18b28
+    xhttp-opts:
+      host: de.vmagnum.win
+      reuse-settings:
+        max-connections: '1'
     xudp: true
