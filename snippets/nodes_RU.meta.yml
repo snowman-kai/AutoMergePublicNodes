@@ -9,13 +9,26 @@ proxies:
     sni: giftcard.gisora.ir
     tls: false
     type: hysteria2
-  - name: 🇷🇺RU_1|1.0MB/s
+  - name: 🇷🇺RU_1|1011KB/s
     port: 443
     server: 82.147.71.46
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇷🇺RU_2|2.1MB/s
-    port: 1080
-    server: 81.195.131.20
-    type: socks5
+  - client-fingerprint: safari
+    encryption: none
+    grpc-opts:
+      grpc-service-name: astracat
+    name: 🇷🇺RU_2|2.4MB/s
+    network: grpc
+    port: '2088'
+    reality-opts:
+      public-key: Eq3c19Y0WGB1APWMADQB-oxCvZFSVFAQxG5L6b8EkUg
+      short-id: '!!str b1ad165f903c62fe'
+    server: 31.59.210.26
+    servername: www.yandex.ru
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+    xudp: true
