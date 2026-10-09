@@ -1,11 +1,4 @@
 proxies:
-  - name: 🍁75@oneclickvpnkeys
-    password: 41edb44c8e
-    port: 11592
-    server: 103.88.243.142
-    sni: srv-17e124.21freedom.net
-    tls: false
-    type: hysteria2
   - name: Telegram 🆔@cnetvpn 🇷🇺
     obfs: salamander
     obfs-password: 09p333uviv2qal0y
@@ -16,16 +9,41 @@ proxies:
     sni: giftcard.gisora.ir
     tls: false
     type: hysteria2
-  - name: 🇷🇺RU_1|3.2MB/s
-    port: 8443
-    server: 87.242.85.187
+  - name: 🇷🇺RU_1|2.0MB/s
+    port: 443
+    server: 178.219.43.226
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇷🇺RU_2|2.2MB/s
-    password: ''
-    port: '1081'
-    server: 195.3.219.148
-    skip-cert-verify: true
-    type: socks5
-    username: ''
+  - client-fingerprint: random
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇷🇺RU_2|2.6MB/s
+    network: raw
+    port: '444'
+    reality-opts:
+      public-key: P7F65GjTQGZju-N8CVHtlKNaWebVe_76Xt7Lm00RuH0
+      short-id: '!!str '
+    server: 188.130.209.227
+    servername: vextor.win
+    tls: true
+    type: vless
+    udp: true
+    uuid: a6be94fc-e742-4714-8a38-c8d7410ae066
+    xudp: true
+  - client-fingerprint: ios
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇷🇺RU_3|2.0MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: a62QCCV2nLMEq9Z3Y5IqW4r0EijtioUrbYavzWg901E
+      short-id: '!!str 52409c59e2a1167d'
+    server: 85.209.135.119
+    servername: srv-1d3e4e.vless.monster
+    tls: true
+    type: vless
+    udp: true
+    uuid: 8ee5246a-3995-4676-a77e-c16d208a4f2d
+    xudp: true
