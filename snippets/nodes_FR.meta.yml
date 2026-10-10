@@ -1,52 +1,7 @@
 proxies:
-  - name: 🇫🇷190916 | ⚡️Telegram = t.me/S...
-    obfs: salamander
-    obfs-password: ChY5QQQT3ZtUdNT8
-    password: capadmbd5f18bd
-    port: 443
-    server: 51.77.217.70
-    skip-cert-verify: true
-    sni: vpn.local
-    tls: false
-    type: hysteria2
-  - client-fingerprint: firefox
-    name: 🇫🇷FR_1|3.3MB/s
-    network: ws
-    port: 995
-    server: 95.133.247.98
-    servername: love-paris.roxa.org
-    tls: true
-    type: vless
-    udp: true
-    uuid: df275727-c25a-450b-99c3-29e4e6b0b6b9
-    ws-opts:
-      headers:
-        Host: love-paris.roxa.org
-      path: /api/v1
-      v2ray-http-upgrade: true
-  - name: 🇫🇷FR_2|1.5MB/s
-    port: 443
-    server: 82.66.235.221
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇫🇷FR_3|3.5MB/s
-    port: 443
-    server: 82.64.255.151
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇫🇷FR_4|2.4MB/s
-    port: 8081
-    server: 31.32.19.111
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇫🇷FR_5|2.0MB/s
-    password: ''
-    port: 443
-    server: 149.102.245.65
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
+  - name: 🇫🇷FR_1|3.1MB/s
+    password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+    port: 1012
+    server: k5f00f9s.zf-mix.9999231.xyz
+    sni: fr-house.9999231.xyz
+    type: anytls
