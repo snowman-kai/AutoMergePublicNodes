@@ -9,37 +9,8 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇸🇪SE_5|2.1MB/s
-    network: raw
-    port: '25119'
-    reality-opts:
-      public-key: szPq4a3cvxfBOmGyg-UJCV3d1Jqjnj7YR3gaxyYtnk4
-      short-id: '!!str 10f517'
-    server: se3.h1cloud.net
-    servername: www.samsung.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2
-    xudp: true
-  - name: 🇸🇪SE_2|1.1MB/s
-    port: 443
-    server: 217.210.129.243
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇸🇪SE_3|2.3MB/s
+  - name: 🇸🇪SE_1|3.2MB/s
     password: None
-    port: 443
-    server: 149.50.216.65
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇸🇪SE_4|2.6MB/s
     port: 443
     server: 79.142.77.63
     skip-cert-verify: true

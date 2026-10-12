@@ -375,28 +375,16 @@ proxies:
     sni: m.ctrip.com
     type: trojan
   - cipher: aes-256-gcm
-    name: 🇯🇵JP_1|1.4MB/s
-    password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-    port: 22073
+    name: 🇸🇬SG_4|4.1MB/s
+    password: c2fe9024-d253-401a-b868-97421f6eb9e0
+    port: '22059'
     server: ruot.ayucloudservices.nl
     type: ss
     udp: true
-  - alpn:
-      - h2
-    alterId: '0'
-    cipher: auto
-    name: 🇩🇪DE_2|3.1MB/s
-    network: ws
-    port: 443
-    server: renderer-stream-2-114.mirra.now
-    servername: renderer-stream-2-114.mirra.now
-    skip-cert-verify: false
-    tls: true
-    type: vmess
+  - cipher: aes-128-gcm
+    name: 🇺🇸US_8|4.4MB/s
+    password: d63d34c4-1bdb-446a-bdf0-7667e30a9173
+    port: '40034'
+    server: ruot.ayucloudservices.nl
+    type: ss
     udp: true
-    uuid: 8ffa41d4-e6b5-4af5-a8a9-69e26bec75f5
-    ws-opts:
-      headers:
-        Host: renderer-stream-2-114.mirra.now
-      path: /api/v1/gpu-stream/socket
-    xudp: true
