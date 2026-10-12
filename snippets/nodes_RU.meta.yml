@@ -13,7 +13,7 @@ proxies:
     grpc-opts:
       grpc-mode: gun
       grpc-service-name: astracat
-    name: 🇷🇺RU_1|1.1MB/s
+    name: 🇷🇺RU_1|3.3MB/s
     network: grpc
     port: 2088
     reality-opts:
@@ -25,3 +25,9 @@ proxies:
     type: vless
     udp: true
     uuid: 5413edfb-08d6-4fba-b51c-809c04feb127
+  - name: 🇷🇺RU_2|2.9MB/s
+    port: 8443
+    server: 87.242.85.187
+    skip-cert-verify: true
+    tls: true
+    type: http
