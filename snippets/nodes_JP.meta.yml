@@ -52,3 +52,10 @@ proxies:
     skip-cert-verify: true
     sni: m.ctrip.com
     type: trojan
+  - name: 🇯🇵JP_1|2.5MB/s
+    password: ''
+    port: '1080'
+    server: 150.129.137.105
+    skip-cert-verify: true
+    type: socks5
+    username: ''

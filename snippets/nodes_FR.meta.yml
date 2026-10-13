@@ -1,1 +1,27 @@
-proxies: []
+proxies:
+  - name: 🇫🇷FR_1|3.2MB/s
+    port: 6103
+    server: 87.98.174.157
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇫🇷FR_2|3.2MB/s
+    port: 8090
+    server: 82.96.128.175
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇫🇷FR_3|3.3MB/s
+    port: 443
+    server: 82.64.255.151
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇫🇷FR_4|3.2MB/s
+    password: None
+    port: 443
+    server: 149.102.245.65
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: null
