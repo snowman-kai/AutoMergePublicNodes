@@ -53,55 +53,6 @@ proxies:
     skip-cert-verify: true
     sni: m.ctrip.com
     type: trojan
-  - name: 🇺🇸US_1|1.1MB/s
-    port: 9443
-    server: 38.95.111.226
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - flow: xtls-rprx-vision
-    name: 🇺🇸US_2|1.0MB/s
-    port: 443
-    server: s880.gogocs.xyz
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    udp: true
-    uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  - name: 🇺🇸US_3|1.0MB/s
-    port: 443
-    server: 12.221.146.147
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_4|1.0MB/s
-    port: 443
-    server: 12.202.180.10
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_5|1.4MB/s
-    port: 443
-    server: 12.202.180.118
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_6|1.3MB/s
-    port: 443
-    server: 149.34.248.65
-    skip-cert-verify: true
-    sni: 149.34.248.65
-    tls: true
-    type: http
-  - name: 🇺🇸US_7|4.2MB/s
-    password: ''
-    port: '443'
-    server: 148.135.10.80
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
     name: US_speednode_0130

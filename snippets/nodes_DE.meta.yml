@@ -27,40 +27,11 @@ proxies:
     sni: gift-catalog.aroonia.ir
     tls: false
     type: hysteria2
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_1|1.1MB/s
-    network: xhttp
-    port: '8448'
-    reality-opts:
-      public-key: LTZezy5Z-ZFQQpCPiSglPRyqqxr2ekFRnbz0lahfxCI
-      short-id: '!!str 24b61af4458b5152'
-    server: 2.27.211.84
-    servername: api-maps.yandex.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4dcfe8ff-b24c-4241-96a2-31fac7c87ad8
-    xhttp-opts:
-      host: 2.27.211.84
-      mode: stream-one
-      path: /assets/v2
-    xudp: true
-  - name: 🇩🇪DE_2|1.1MB/s
-    port: 8443
-    server: 188.120.225.125
+  - name: 🇩🇪194126 | ⚡️Telegram = t.me/S...
+    password: zhangyang
+    port: 6443
+    server: 130.61.50.75
     skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_3|2.5MB/s
-    port: 443
-    server: 172.64.69.89
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_4|1.4MB/s
-    port: 443
-    server: 172.64.68.89
-    skip-cert-verify: true
-    tls: true
-    type: http
+    sni: 130.61.50.75
+    tls: false
+    type: hysteria2

@@ -1,4 +1,12 @@
 proxies:
+  - name: 🇸🇬194106 | ⚡️Telegram = t.me/S...
+    password: 745A6079-6A61-423D-BDD9-B344C1D26E62
+    port: 20177
+    server: sg1.dexlos.com
+    skip-cert-verify: false
+    sni: sg1.dexlos.com
+    tls: false
+    type: hysteria2
   - alterId: 0
     cipher: auto
     name: 🇸🇬 新加坡|@ripaojiedian
@@ -37,24 +45,3 @@ proxies:
     skip-cert-verify: true
     sni: m.ctrip.com
     type: trojan
-  - name: 🇸🇬SG_1|1.2MB/s
-    password: '!!str 1234'
-    port: '2080'
-    server: 54.251.149.207
-    skip-cert-verify: true
-    type: http
-    username: '1234'
-  - name: 🇸🇬SG_2|5.0MB/s
-    password: '!!str 1234'
-    port: '2080'
-    server: 13.214.213.66
-    skip-cert-verify: true
-    type: http
-    username: '1234'
-  - name: 🇸🇬SG_3|4.5MB/s
-    password: '!!str 1234'
-    port: '2080'
-    server: 13.212.186.198
-    skip-cert-verify: true
-    type: http
-    username: '1234'
