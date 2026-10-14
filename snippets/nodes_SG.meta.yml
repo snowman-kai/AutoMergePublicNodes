@@ -1,12 +1,4 @@
 proxies:
-  - name: 🇸🇬194106 | ⚡️Telegram = t.me/S...
-    password: 745A6079-6A61-423D-BDD9-B344C1D26E62
-    port: 20177
-    server: sg1.dexlos.com
-    skip-cert-verify: false
-    sni: sg1.dexlos.com
-    tls: false
-    type: hysteria2
   - alterId: 0
     cipher: auto
     name: 🇸🇬 新加坡|@ripaojiedian
@@ -45,3 +37,69 @@ proxies:
     skip-cert-verify: true
     sni: m.ctrip.com
     type: trojan
+  - name: 🇸🇬SG_1|1.2MB/s
+    network: ws
+    port: 80
+    server: free.sahanwickramasinghe.me
+    skip-cert-verify: true
+    tls: false
+    type: vless
+    udp: true
+    uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+    ws-opts:
+      headers:
+        Host: free.sahanwickramasinghe.me
+      path: /
+  - name: 🇸🇬SG_2|2.2MB/s
+    password: '!!str 1234'
+    port: 2080
+    server: 54.251.149.207
+    skip-cert-verify: true
+    type: http
+    username: '1234'
+  - name: 🇸🇬SG_3|2.3MB/s
+    port: 9443
+    server: 152.233.9.239
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇸🇬SG_4|2.0MB/s
+    port: 443
+    server: 156.146.56.97
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - alterId: 0
+    cipher: auto
+    name: 🇸🇬SG_5|3.9MB/s
+    network: ws
+    port: 443
+    server: Aim7HqTuvNOofcsx.v.3dns.vip
+    servername: Aim7HqTuvNOofcsx.v.3dns.vip
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 10d6665f-10c9-4f03-9b83-ba45968f748d
+    ws-opts:
+      headers:
+        Host: Aim7HqTuvNOofcsx.v.3dns.vip
+      path: /ws-vmess
+    xudp: true
+  - alterId: 0
+    cipher: auto
+    name: 🇸🇬SG_6|1.4MB/s
+    network: ws
+    port: 443
+    server: 5FPTMOqdtsxQRFmA.v.3dns.vip
+    servername: 5FPTMOqdtsxQRFmA.v.3dns.vip
+    skip-cert-verify: false
+    tls: true
+    type: vmess
+    udp: true
+    uuid: a9f4de8b-68f1-44b6-b6a2-1db60940503a
+    ws-opts:
+      headers:
+        Host: 5FPTMOqdtsxQRFmA.v.3dns.vip
+      path: /ws-vmess
+    xudp: true
