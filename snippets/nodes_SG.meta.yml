@@ -38,40 +38,42 @@ proxies:
     sni: m.ctrip.com
     type: trojan
   - client-fingerprint: chrome
-    name: 🇸🇬SG_1|4.1MB/s
-    network: ws
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇸🇬SG_1|3.1MB/s
+    network: tcp
     port: '443'
-    server: cf.090227.xyz
-    servername: 20664.pages.dev
+    reality-opts:
+      public-key: vUhHTgZiXSho6Nv84w_JZW7Mo7XjJr0TsOBf19Dpols
+      short-id: '!!str 37c94ae25b69a93a'
+    server: sg1.oh-node.com
+    servername: sg-hyp-api.hoyoverse.com
     tls: true
     type: vless
     udp: true
-    uuid: 9784bb19-3833-43ad-83b0-27ef8fc04ef2
+    uuid: 7cfd34ae-edad-4cc5-9d6f-066f7add7829
+    xudp: true
+  - client-fingerprint: unsafe
+    name: 🇸🇬SG_2|4.6MB/s
+    network: ws
+    port: '443'
+    server: 172.64.150.43
+    servername: snip.edgeoneai.cc.cd
+    tls: true
+    type: vless
+    udp: true
+    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
     ws-opts:
       headers:
-        Host: 20664.pages.dev
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/60.0.3112.90 Safari/537.36
-      path: /?ed=2048fp=random
+        Host: snip.edgeoneai.cc.cd
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/68.0.3440.1805 Safari/537.36 MVisionPlayer/1.0.0.0
+      path: ''
     xudp: true
-  - name: 🇸🇬SG_2|1.3MB/s
+  - name: 🇸🇬SG_3|2.2MB/s
     password: '!!str 1234'
     port: '2080'
-    server: 13.229.91.101
-    skip-cert-verify: true
-    type: http
-    username: '1234'
-  - name: 🇸🇬SG_3|4.6MB/s
-    password: '!!str 1234'
-    port: '2080'
-    server: 13.229.89.107
-    skip-cert-verify: true
-    type: http
-    username: '1234'
-  - name: 🇸🇬SG_4|1.6MB/s
-    password: '!!str 1234'
-    port: '2080'
-    server: 13.212.87.168
+    server: 18.143.176.211
     skip-cert-verify: true
     type: http
     username: '1234'

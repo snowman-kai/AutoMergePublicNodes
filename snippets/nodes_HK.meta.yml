@@ -110,17 +110,3 @@ proxies:
     skip-cert-verify: true
     sni: m.ctrip.com
     type: trojan
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇭🇰HK_1|3.2MB/s
-    network: tcp
-    port: 798
-    reality-opts:
-      public-key: czEoNozTky8HvZ2j4Tnkr6c9L-rAhsdoaBvEz1vjAkU
-      short-id: '!!str 6aa9279c1fbab9c9'
-    server: hk03.ccdn3.work
-    servername: i1.hdslb.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: fc12fb20-4380-11ec-8c97-d707e267af0b

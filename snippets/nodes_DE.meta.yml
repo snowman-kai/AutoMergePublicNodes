@@ -27,45 +27,30 @@ proxies:
     sni: gift-catalog.aroonia.ir
     tls: false
     type: hysteria2
-  - name: 🇩🇪DE_1|3.0MB/s
+  - name: 🇩🇪DE_1|1.7MB/s
     port: 443
     server: 213.177.229.161
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇩🇪DE_2|2.3MB/s
-    port: 443
-    server: 152.233.20.206
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_3|1.7MB/s
-    port: 443
-    server: 87.249.132.97
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_4|2.2MB/s
+  - name: 🇩🇪DE_2|1.0MB/s
     password: None
-    port: 9443
-    server: 87.249.132.97
+    port: 443
+    server: 149.36.50.157
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇩🇪DE_3|1.4MB/s
+    port: 9002
+    server: 158.173.154.2
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇩🇪DE_4|3.0MB/s
+    password: None
+    port: 443
+    server: 149.36.50.129
     skip-cert-verify: true
     tls: true
     type: http
     username: null
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇩🇪DE_5|2.0MB/s
-    network: tcp
-    port: '503'
-    reality-opts:
-      public-key: cOSh1LkwAcwlj5AeUq3j9hJvSI0eTlRy6r0xMEA7mgQ
-      short-id: '!!str cf7982e83eabbdc9'
-    server: b.a.eternalping4.ir
-    servername: redirector.gvt1.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 31729c96-4631-4133-a73c-8a472c222dec
-    xudp: true
