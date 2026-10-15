@@ -1,1 +1,16 @@
-proxies: []
+proxies:
+  - name: 🇪🇪EE_1|1.5MB/s
+    password: 9jkvAVV-9ufV6IGd
+    port: 36774
+    server: chalo-ru.nexorcdn.com
+    skip-cert-verify: true
+    sni: chalo-ru.nexorcdn.com
+    tls: true
+    type: http
+    username: ef37886e2aacd6fa622e3de3810299c2
+  - name: 🇪🇪EE_2|2.0MB/s
+    port: 9443
+    server: 95.153.32.2
+    skip-cert-verify: true
+    tls: true
+    type: http
