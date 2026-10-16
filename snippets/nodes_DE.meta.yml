@@ -27,50 +27,38 @@ proxies:
     sni: gift-catalog.aroonia.ir
     tls: false
     type: hysteria2
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇩🇪DE_1|1.7MB/s
-    network: tcp
-    port: '443'
-    reality-opts:
-      public-key: Lcx-6dTZVRdY_HR8XDH438e1RldvuwCCLQiB-N0DWmE
-      short-id: '!!str ad6ebedaba235e01'
-    server: app-ss-48.shopping-spb.com
-    servername: assets-ss-48.shopping-spb.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 05c8eabe-96af-4db2-bb2f-a24fa84344ba
-    xudp: true
-  - name: 🇩🇪DE_2|1.3MB/s
-    port: 443
-    server: 79.127.156.177
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_3|1.2MB/s
+  - name: 🇩🇪DE_1|2.6MB/s
     port: 443
     server: 87.249.132.97
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇩🇪DE_4|1.2MB/s
-    port: 9002
-    server: 158.173.154.3
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_5|2.5MB/s
+  - name: 🇩🇪DE_2|1.2MB/s
     port: 443
-    server: 152.233.20.206
+    server: 149.36.50.157
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇩🇪DE_6|2.0MB/s
-    password: None
+  - name: 🇩🇪DE_3|1.1MB/s
     port: 443
     server: 149.36.50.129
     skip-cert-verify: true
     tls: true
     type: http
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇩🇪DE_4|1.6MB/s
+    network: xhttp
+    port: '443'
+    server: tamiiiiz.aryan-sport.ir
+    servername: s20.aryan-sport.ir
+    tls: true
+    type: vless
+    udp: true
+    uuid: 9f9a0bdf-fa7b-4cdc-a8a3-44578cb5054b
+    xhttp-opts:
+      host: s16.aryan-sport.ir.
+      mode: auto
+      path: /
+      x-padding-bytes: 100-1000
+    xudp: true
