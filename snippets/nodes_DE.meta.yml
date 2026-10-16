@@ -27,51 +27,50 @@ proxies:
     sni: gift-catalog.aroonia.ir
     tls: false
     type: hysteria2
-  - client-fingerprint: unsafe
+  - client-fingerprint: chrome
     encryption: none
-    name: 🇩🇪DE_1|3.3MB/s
-    network: ws
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_1|1.7MB/s
+    network: tcp
     port: '443'
-    server: 209.38.253.211
-    servername: snip.edgeoneai.cc.cd
+    reality-opts:
+      public-key: Lcx-6dTZVRdY_HR8XDH438e1RldvuwCCLQiB-N0DWmE
+      short-id: '!!str ad6ebedaba235e01'
+    server: app-ss-48.shopping-spb.com
+    servername: assets-ss-48.shopping-spb.com
     tls: true
     type: vless
     udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/70.0.3538.67 Safari/537.36
-      path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443
+    uuid: 05c8eabe-96af-4db2-bb2f-a24fa84344ba
     xudp: true
-  - name: 🇩🇪DE_2|1.2MB/s
+  - name: 🇩🇪DE_2|1.3MB/s
     port: 443
-    server: 87.106.223.158
+    server: 79.127.156.177
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇩🇪DE_3|1.0MB/s
+  - name: 🇩🇪DE_3|1.2MB/s
     port: 443
-    server: 193.233.75.115
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_4|3.6MB/s
-    port: 443
-    server: 172.64.69.89
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_5|3.0MB/s
-    port: 9443
     server: 87.249.132.97
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇩🇪DE_6|4.4MB/s
+  - name: 🇩🇪DE_4|1.2MB/s
+    port: 9002
+    server: 158.173.154.3
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇩🇪DE_5|2.5MB/s
     port: 443
-    server: 213.109.163.119
+    server: 152.233.20.206
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇩🇪DE_6|2.0MB/s
+    password: None
+    port: 443
+    server: 149.36.50.129
     skip-cert-verify: true
     tls: true
     type: http
