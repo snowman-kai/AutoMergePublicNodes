@@ -1,13 +1,1 @@
-proxies:
-  - name: 🇬🇧GB_1|2.0MB/s
-    port: 443
-    server: 212.102.63.31
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇬🇧GB_2|1.2MB/s
-    port: 443
-    server: 84.17.50.193
-    skip-cert-verify: true
-    tls: true
-    type: http
+proxies: []
