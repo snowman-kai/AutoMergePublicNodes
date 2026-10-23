@@ -57,7 +57,7 @@ proxies:
       - h2
     client-fingerprint: chrome
     encryption: none
-    name: 🇯🇵JP_1|2.3MB/s
+    name: 🇯🇵JP_1|4.2MB/s
     network: ws
     port: 443
     server: saas.sin.fan
@@ -72,4 +72,21 @@ proxies:
         User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
           like Gecko) Chrome/66.0.3359.139 Safari/537.36
       path: /fdip=sstp://vpn:vpn@public-vpn-200.opengw.net:443?ed=2560
+    xudp: true
+  - client-fingerprint: chrome
+    name: 🇯🇵JP_2|3.2MB/s
+    network: ws
+    port: '443'
+    server: saas.sin.fan
+    servername: vp5.1145678.xyz
+    tls: true
+    type: vless
+    udp: true
+    uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+    ws-opts:
+      headers:
+        Host: vp5.1145678.xyz
+        User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/60.0.3112.113 Safari/537.36
+      path: /service
     xudp: true

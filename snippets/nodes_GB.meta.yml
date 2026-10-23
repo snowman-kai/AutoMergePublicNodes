@@ -1,35 +1,61 @@
 proxies:
-  - name: 🇬🇧GB_1|1.6MB/s
+  - name: 🇬🇧GB_1|1.8MB/s
     port: 9443
     server: 84.17.50.129
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇬🇧GB_2|3.0MB/s
+  - name: 🇬🇧GB_2|2.6MB/s
     port: 443
     server: 84.17.50.193
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇬🇧GB_3|3.0MB/s
+  - name: 🇬🇧GB_3|1.1MB/s
     port: 9443
     server: 84.233.178.33
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇬🇧GB_4|2.7MB/s
+  - name: 🇬🇧GB_4|1.8MB/s
+    port: 443
+    server: 212.102.63.1
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇬🇧GB_5|1.1MB/s
     password: None
     port: 443
-    server: 212.102.63.1
+    server: 37.120.233.50
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇬🇧GB_5|1.2MB/s
+    username: null
+  - name: 🇬🇧GB_7|1.9MB/s
+    password: None
     port: 443
-    server: 212.102.63.1
+    server: 185.164.138.156
     skip-cert-verify: true
     tls: true
     type: http
+    username: null
+  - name: 🇬🇧GB_8|1.4MB/s
+    password: None
+    port: 9443
+    server: 84.17.50.214
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: null
+  - name: 🇬🇧GB_9|2.1MB/s|P002-260618
+    password: None
+    port: 443
+    server: 212.102.63.31
+    skip-cert-verify: true
+    sub_tag: P002-260618
+    tls: true
+    type: http
+    udp: true
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
     name: GB_speednode_0013
