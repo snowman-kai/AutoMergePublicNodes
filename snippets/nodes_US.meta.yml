@@ -53,83 +53,34 @@ proxies:
     skip-cert-verify: true
     sni: m.ctrip.com
     type: trojan
-  - client-fingerprint: chrome
-    name: 🇺🇸US_1|1.3MB/s
-    network: ws
-    port: 443
-    server: 104.16.65.1
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/67.0.3396.87 Safari/537.36
-      path: /
-    xudp: true
-  - name: 🇺🇸US_2|1.2MB/s
+  - name: 🇺🇸US_1|2.6MB/s
     port: 443
     server: 121.127.34.82
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇺🇸US_3|1.1MB/s
-    port: 443
-    server: 167.88.60.242
-    skip-cert-verify: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇺🇸US_2|1.1MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: kCYu5PbOfpqpetoFkUV0weDpxdeCN0UWRcL6mZtf6xc
+      short-id: '!!str 58f26f1ff75e9031'
+    server: vu2us97h.87544899.xyz
+    servername: maps.apple.com
     tls: true
-    type: http
-  - name: 🇺🇸US_4|1.1MB/s
-    password: None
-    port: 9443
-    server: 149.88.21.140
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_5|1.4MB/s
-    port: 443
-    server: 12.202.180.118
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_6|1.1MB/s
-    password: None
-    port: 9443
-    server: 154.47.25.78
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_7|1.3MB/s
-    port: 443
-    server: 45.63.38.134
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_8|1.2MB/s
-    password: None
-    port: 443
-    server: 12.221.146.147
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_9|2.0MB/s
-    port: 443
-    server: 68.235.56.51
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_10|2.4MB/s
+    type: vless
+    udp: true
+    uuid: fb26530b-c9ca-4bb2-b726-6cddfa3afe66
+    xudp: true
+  - name: 🇺🇸US_3|1.7MB/s
     password: ''
-    port: '22222'
-    server: 64.118.155.2
+    port: '1080'
+    server: 209.50.255.91
     skip-cert-verify: true
-    type: http
+    type: socks5
     username: ''
   - name: US_speednode_0023
     port: 443

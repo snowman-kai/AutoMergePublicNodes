@@ -28,29 +28,7 @@ proxies:
     tls: false
     type: hysteria2
   - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇩🇪DE_1|1.6MB/s
-    network: tcp
-    port: '443'
-    reality-opts:
-      public-key: UZc4OlyX-cYmQh5FJtjzoSuVqtbiGJCNQGF_MN8CxA4
-      short-id: '!!str 748e4f563dd9bd02'
-    server: 5.175.161.228
-    servername: www.bmw.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1
-    xudp: true
-  - name: 🇩🇪DE_2|1.2MB/s
-    port: 443
-    server: 149.36.50.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - client-fingerprint: chrome
-    name: 🇩🇪DE_3|2.1MB/s
+    name: 🇩🇪DE_1|1.3MB/s
     network: ws
     port: 2083
     server: 64.188.71.236
@@ -67,34 +45,15 @@ proxies:
           Safari/537.36
       path: /
     xudp: true
-  - name: DE_speednode_0002
+  - name: 🇩🇪DE_2|1.7MB/s
     password: None
-    port: 443
-    server: 213.109.163.119
+    port: 9443
+    server: 79.127.156.177
     skip-cert-verify: true
     tls: true
     type: http
-    udp: true
-  - client-fingerprint: chrome
-    encryption: none
-    name: 🇩🇪DE_5|1.3MB/s
-    network: ws
-    port: '2087'
-    server: 45.157.233.109
-    servername: snip.edgeoneai.cc.cd
-    tls: true
-    type: vless
-    udp: true
-    uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5
-    ws-opts:
-      headers:
-        Host: snip.edgeoneai.cc.cd
-        User-Agent: Mozilla/5.0 (Linux; Android 4.4.2; de-de; SAMSUNG GT-I9195 Build/KOT49H)
-          AppleWebKit/537.36 (KHTML, like Gecko) Version/1.5 Chrome/28.0.1500.94 Mobile
-          Safari/537.36
-      path: /
-    xudp: true
-  - name: 🇩🇪DE_6|1.9MB/s|R002-260618
+    username: null
+  - name: 🇩🇪DE_3|1.5MB/s|R002-260618
     password: None
     port: 443
     server: 87.249.132.97
@@ -103,13 +62,15 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: 🇩🇪DE_7|3.0MB/s
+  - name: DE_speednode_0001
     port: 443
-    server: 213.177.229.161
+    server: 213.109.163.119
     skip-cert-verify: true
     tls: true
     type: http
-  - name: DE_speednode_0001
+    udp: true
+  - name: DE_speednode_0002
+    password: None
     port: 443
     server: 213.109.163.119
     skip-cert-verify: true
