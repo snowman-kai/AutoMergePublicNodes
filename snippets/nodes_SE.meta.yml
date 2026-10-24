@@ -1,11 +1,4 @@
 proxies:
-  - name: 🐙71@oneclickvpnkeys
-    password: 78559873-84ef-4cab-a0b2-46d4cd20de4a
-    port: 2053
-    server: 144.31.230.51
-    sni: sweden.luxes.network
-    tls: false
-    type: hysteria2
   - name: 🐙93@oneclickvpnkeys
     password: d4ca9415f0eac7897472e1e5b86d2e96
     port: 443
@@ -22,16 +15,10 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 🇸🇪SE_1|3.0MB/s
-    port: 443
-    server: 146.70.242.146
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇸🇪SE_2|2.3MB/s
+  - name: 🇸🇪SE_1|1.5MB/s
     password: None
     port: 443
-    server: 146.70.242.130
+    server: 146.70.242.146
     skip-cert-verify: true
     tls: true
     type: http
@@ -39,7 +26,7 @@ proxies:
   - client-fingerprint: firefox
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇸🇪SE_3|2.2MB/s
+    name: 🇸🇪SE_2|2.7MB/s
     network: tcp
     port: '443'
     reality-opts:

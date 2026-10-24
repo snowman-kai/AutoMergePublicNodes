@@ -1,5 +1,13 @@
 proxies:
-  - name: 🇨🇭CH_1|2.9MB/s|K001-260618
+  - name: 🇨🇭CH_1|3.2MB/s
+    password: None
+    port: 9443
+    server: 37.120.213.210
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: null
+  - name: 🇨🇭CH_2|1.1MB/s|K001-260618
     password: ''
     port: 9443
     server: 149.88.27.33
@@ -9,3 +17,11 @@ proxies:
     type: http
     udp: true
     username: ''
+  - name: 🇨🇭CH_3|2.0MB/s
+    password: None
+    port: 443
+    server: 31.7.62.50
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: null
