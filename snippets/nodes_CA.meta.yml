@@ -1,24 +1,16 @@
 proxies:
-  - name: 🇨🇦CA_1|2.9MB/s
+  - name: 🇨🇦CA_1|1.8MB/s
     password: None
-    port: 443
-    server: 206.223.183.13
+    port: 9443
+    server: 149.88.98.81
     skip-cert-verify: true
     tls: true
     type: http
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇨🇦CA_2|1.5MB/s
-    network: tcp
-    port: 2093
-    reality-opts:
-      public-key: C_GA8wVjeLmyqLK6em5OHn4WPlsbndA-RyvyNU1aGFM
-      short-id: '!!str 8a9725533854a7e8'
-    server: 213.152.165.203
-    servername: www.apple.com
-    skip-cert-verify: false
-    tfo: false
+    username: null
+  - name: 🇨🇦CA_2|2.3MB/s
+    password: None
+    port: 443
+    server: 206.223.183.16
+    skip-cert-verify: true
     tls: true
-    type: vless
-    udp: true
-    uuid: 0b418782-e023-447e-ba99-e66b84ff118d
+    type: http

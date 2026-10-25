@@ -15,24 +15,16 @@ proxies:
     sni: giftcard.gateway-stream.com
     tls: false
     type: hysteria2
-  - name: 🇸🇪SE_1|1.5MB/s
-    password: None
-    port: 443
-    server: 146.70.242.146
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - client-fingerprint: firefox
+  - client-fingerprint: chrome
     encryption: none
     flow: xtls-rprx-vision
-    name: 🇸🇪SE_2|2.7MB/s
+    name: 🇸🇪SE_1|2.8MB/s
     network: tcp
     port: '443'
     reality-opts:
       public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E
       short-id: '!!str afee962d'
-    server: 91.242.228.29
+    server: se1.mycloud1.org
     servername: se1.mycloud1.org
     tls: true
     type: vless
