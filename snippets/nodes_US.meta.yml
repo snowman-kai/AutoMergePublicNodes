@@ -53,109 +53,93 @@ proxies:
     skip-cert-verify: true
     sni: m.ctrip.com
     type: trojan
-  - name: 🇺🇸US_1|1.8MB/s
+  - name: US_speednode_0055
     password: None
     port: 9443
-    server: 154.47.25.78
+    server: 198.44.138.27
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇺🇸US_2|1.7MB/s
+    udp: true
+  - name: US_speednode_0059
+    port: 443
+    server: 68.235.56.51
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇺🇸US_3|1.1MB/s
     password: ''
-    port: 9002
-    server: 138.199.35.212
+    port: 9443
+    server: 38.95.111.226
     skip-cert-verify: true
     tls: true
     type: http
     udp: true
     username: ''
-  - name: 🇺🇸US_3|2.6MB/s
-    port: 9002
-    server: 138.199.35.204
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_4|2.0MB/s
+  - name: 🇺🇸US_4|1003KB/s|K001-260618
     password: None
-    port: 8443
-    server: 44.229.69.166
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_5|2.3MB/s
-    password: 'null'
-    port: 9002
-    server: 138.199.35.195
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: 🇺🇸US_6|3.5MB/s
-    port: 9002
-    server: 138.199.35.209
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_7|1.6MB/s
-    password: None
-    port: 443
-    server: 193.239.236.134
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_8|2.0MB/s
     port: 443
     server: 12.202.180.10
     skip-cert-verify: true
+    sub_tag: K001-260618
     tls: true
     type: http
-  - name: 🇺🇸US_9|1.1MB/s
-    port: 9443
-    server: 198.44.135.19
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_10|1.9MB/s
-    port: 443
-    server: 216.107.139.82
-    skip-cert-verify: true
-    sni: 991cc80f13caf81d3426ddebb2da7f49-92ff472ddc24e5b7.apache-iv.com
-    tls: true
-    type: http
-  - name: 🇺🇸US_11|2.9MB/s
+    udp: true
+    username: ''
+  - name: 🇺🇸US_5|1.1MB/s
+    password: None
     port: 443
     server: 198.44.135.27
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇺🇸US_12|2.9MB/s
-    password: ''
-    port: '38182'
-    server: 69.55.49.177
+  - name: 🇺🇸US_6|2.0MB/s
+    port: 443
+    server: 68.235.56.59
     skip-cert-verify: true
-    type: socks5
-    username: ''
-  - client-fingerprint: chrome
+    tls: true
+    type: http
+  - client-fingerprint: firefox
     encryption: none
-    fingerprint: CD6E838B9BFE31CAB8B3D5C858B0D6223FE84ECE236C1FDB281BE93C302E1E6E
-    name: 🇺🇸US_13|2.6MB/s
-    network: ws
-    port: '443'
-    server: 167.82.64.64
-    servername: cdn.akamai.steamstatic.com
+    name: 🇺🇸US_7|1.2MB/s
+    network: tcp
+    port: '54857'
+    server: 130.94.18.208
+    servername: us001.zestapp778.com
     tls: true
     type: vless
     udp: true
-    uuid: f9a9aa1f-75fb-4490-9155-85567af7a0ff
+    uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+    xudp: true
+  - client-fingerprint: firefox
+    encryption: none
+    name: 🇺🇸US_8|2.1MB/s
+    network: ws
+    port: '8443'
+    server: 152.53.31.46
+    servername: usa3.pad-sservice.lat
+    tls: true
+    type: vless
+    udp: true
+    uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
     ws-opts:
       headers:
-        Host: copy_az_channel_NUFiLTER_17i.global.ssl.fastly.net.
-        User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; FIG-LX3 Build/HUAWEIFIG-LX3)
-          AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-      path: ''
+        Host: usa3.pad-service.com
+        User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/49.0.2623.87 Safari/537.36
+      path: /U1SA
+    xudp: true
+  - client-fingerprint: chrome
+    name: 🇺🇸US_9|1.7MB/s
+    network: tcp
+    port: '54857'
+    server: us001.zestapp778.com
+    servername: us001.zestapp778.com
+    tls: true
+    type: vless
+    udp: true
+    uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
     xudp: true
   - name: US_speednode_0050
     password: None
@@ -193,14 +177,6 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: US_speednode_0055
-    password: None
-    port: 9443
-    server: 198.44.138.27
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
   - name: US_speednode_0056
     port: 443
     server: 12.202.180.118
@@ -218,13 +194,6 @@ proxies:
   - name: US_speednode_0058
     port: 8090
     server: 173.42.49.102
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: US_speednode_0059
-    port: 443
-    server: 68.235.56.51
     skip-cert-verify: true
     tls: true
     type: http
