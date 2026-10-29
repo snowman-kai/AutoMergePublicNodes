@@ -1,11 +1,52 @@
 proxies:
-  - name: 🇫🇷202290 | ⚡️Telegram = t.me/S...
-    password: 1953e43b-605c-4262-83eb-41a80646b801
+  - name: FR_speednode_0012
     port: 443
-    server: 31.185.105.12
-    sni: fr.song69.fun
-    tls: false
-    type: hysteria2
+    server: 82.65.162.76
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+  - name: 🇫🇷FR_2|2.8MB/s
+    port: 9443
+    server: 213.139.9.142
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇫🇷FR_3|2.8MB/s
+    password: None
+    port: 9443
+    server: 138.199.47.247
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇫🇷FR_4|1.9MB/s
+    password: None
+    port: 443
+    server: 84.235.228.156
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: null
+  - name: 🇫🇷FR_5|1.5MB/s
+    port: 443
+    server: 103.82.101.44
+    skip-cert-verify: true
+    sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
+    tls: true
+    type: http
+  - name: 🇫🇷FR_6|3.1MB/s
+    password: None
+    port: 443
+    server: 82.66.235.221
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - name: 🇫🇷FR_7|1.4MB/s
+    port: 443
+    server: 141.94.16.4
+    skip-cert-verify: true
+    tls: true
+    type: http
   - name: FR_speednode_0008
     port: 19362
     server: 51.159.225.197
@@ -20,25 +61,9 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: FR_speednode_0010
-    password: 'null'
-    port: 23856
-    server: 51.159.225.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-    username: 'null'
   - name: FR_speednode_0011
     port: 23856
     server: 51.159.225.196
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: FR_speednode_0012
-    port: 443
-    server: 82.65.162.76
     skip-cert-verify: true
     tls: true
     type: http
