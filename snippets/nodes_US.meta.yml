@@ -54,64 +54,15 @@ proxies:
     sni: m.ctrip.com
     type: trojan
   - name: 🇺🇸US_1|3.3MB/s
-    password: ''
-    port: 22222
-    server: 64.118.155.2
-    skip-cert-verify: true
-    type: http
-    udp: true
-    username: ''
-  - name: 🇺🇸US_2|2.1MB/s
-    port: 443
-    server: 12.221.146.147
+    port: 8443
+    server: 45.150.164.18
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇺🇸US_3|1.1MB/s
-    port: 443
-    server: 167.88.60.242
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_4|1.0MB/s
-    password: None
-    port: 443
-    server: 198.44.135.27
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_5|1.6MB/s
-    port: 443
-    server: 68.235.56.51
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_6|1.7MB/s
+  - name: 🇺🇸US_2|2.4MB/s
     port: 44499
     server: 45.61.188.134
     type: socks5
-  - name: 🇺🇸US_7|2.1MB/s
-    password: None
-    port: 9443
-    server: 149.88.21.140
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_8|2.2MB/s
-    network: ws
-    port: '8080'
-    server: 104.16.162.89
-    type: vless
-    udp: true
-    uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-    ws-opts:
-      headers:
-        Host: hhlfy.twiladaphne.ndjp.net
-        User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-          like Gecko) Chrome/55.0.2883.87 Safari/537.36
-      path: /sg-melbi
-    xudp: true
   - name: US_speednode_0039
     port: 8443
     server: 44.248.167.117
