@@ -374,3 +374,13 @@ proxies:
     skip-cert-verify: true
     sni: m.ctrip.com
     type: trojan
+  - client-fingerprint: chrome
+    name: 🇱🇹LT_1|1.6MB/s
+    network: tcp
+    password: UAKWGor-h0woFsxKSWK92HptcM0g2k2h
+    port: '443'
+    server: 176.114.95.242
+    skip-cert-verify: false
+    sni: lt-1.1984.love
+    type: trojan
+    udp: true
