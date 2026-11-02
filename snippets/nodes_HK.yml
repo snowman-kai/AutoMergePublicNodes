@@ -68,53 +68,43 @@ proxies:
       headers:
         Host: syJ2gGUgMwBwQwQx.v.3dns.vip
       path: /ws-vmess
-  - alterId: 2
-    cipher: auto
-    name: 香港|@ripaojiedian
-    network: tcp
-    port: '30807'
-    server: v10.hdacd.com
-    servername: ''
-    tls: false
-    type: vmess
-    uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
   - name: 香港2|@ripaojiedian
     network: tcp
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    port: 12103
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    skip-cert-verify: true
-    sni: m.ctrip.com
-    type: trojan
-  - name: 香港3|@ripaojiedian
-    network: tcp
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    port: 10115
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    skip-cert-verify: true
-    sni: m.ctrip.com
-    type: trojan
-  - name: 香港4|@ripaojiedian
-    network: tcp
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    port: 12107
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    skip-cert-verify: true
-    sni: m.ctrip.com
-    type: trojan
-  - name: 香港5|@ripaojiedian
-    network: tcp
-    password: AA885B42-133C-3828-FB69-E45105C06092
-    port: 12102
-    server: 7d0a2gz0-7a0c.aws-agent.net
-    skip-cert-verify: true
-    sni: m.ctrip.com
-    type: trojan
-  - name: 🇭🇰HK_1|1.0MB/s
     password: b17e9b52db9623bd6c16eea3d7adb5b3
-    port: 53004
+    port: 44837
     server: ench-snet-app.w-ctrip.cn
     skip-cert-verify: true
     sni: cm.g.doubleclick.net
     type: trojan
-    udp: true
+  - name: 香港1|@ripaojiedian
+    network: tcp
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    port: 14699
+    server: ench-snet-app.w-ctrip.cn
+    skip-cert-verify: true
+    sni: fe-static.deepseek.com
+    type: trojan
+  - name: 香港4|@ripaojiedian
+    network: tcp
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    port: 41495
+    server: ench-snet-app.w-ctrip.cn
+    skip-cert-verify: true
+    sni: cm.g.doubleclick.net
+    type: trojan
+  - name: 香港3|@ripaojiedian
+    network: tcp
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    port: 34926
+    server: ench-snet-app.w-ctrip.cn
+    skip-cert-verify: true
+    sni: wximg.qq.com
+    type: trojan
+  - name: 香港5|@ripaojiedian
+    network: tcp
+    password: b17e9b52db9623bd6c16eea3d7adb5b3
+    port: 43638
+    server: ench-snet-app.w-ctrip.cn
+    skip-cert-verify: true
+    sni: cm.g.doubleclick.net
+    type: trojan
