@@ -169,6 +169,12 @@ proxies:
     type: vless
     udp: true
     uuid: 8bebd50c-b5c6-458e-bad2-f688d8bbfadb
+  - name: 🇩🇪DE_1|2.1MB/s
+    port: 443
+    server: 213.177.229.161
+    skip-cert-verify: true
+    tls: true
+    type: http
   - name: DE_speednode_0004
     port: 443
     server: 213.109.163.119
