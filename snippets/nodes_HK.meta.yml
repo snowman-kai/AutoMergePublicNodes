@@ -153,10 +153,3 @@ proxies:
     type: vless
     udp: true
     uuid: 2da0412a-627e-4491-90f7-ad79f349eec1
-  - name: 🇭🇰HK_1|1.4MB/s
-    password: ''
-    port: '3128'
-    server: 43.161.254.16
-    skip-cert-verify: true
-    type: http
-    username: ''
