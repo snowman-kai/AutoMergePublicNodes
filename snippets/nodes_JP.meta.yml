@@ -159,6 +159,14 @@ proxies:
     type: vless
     udp: true
     uuid: 2bf0b660-9130-48b5-808d-7885f2a4e483
+  - name: 🇯🇵JP_1|2.5MB/s
+    password: ''
+    port: '40583'
+    server: 120.232.204.58
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
     name: JP_speednode_0018
