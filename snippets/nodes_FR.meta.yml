@@ -1,191 +1,45 @@
 proxies:
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR01|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 188.95.52.121
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
+  - name: 🇫🇷4@exclavevpn
+    password: 40546f3a-0590-4a5a-a104-6eb2e6ba5f0c
+    port: 23661
+    server: 194.113.235.254
+    sni: fr.verymad.net
     tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR02|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 188.95.52.120
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR03|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 188.95.52.123
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR04|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 188.95.52.124
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR05|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 213.152.165.204
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR06|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 213.152.165.201
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR07|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 213.152.165.195
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR08|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 213.152.165.199
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR09|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 213.152.165.197
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - client-fingerprint: chrome
-    flow: xtls-rprx-vision
-    name: 🇫🇷FR10|@ripaojiedian
-    network: tcp
-    port: 2092
-    reality-opts:
-      public-key: zeyIqmHylDrPbbtdG9BleBt0-fqKCHpZ0OZ9OY2_WUI
-      short-id: '!!str 716b7eba38125f3a'
-    server: 213.152.165.200
-    servername: www.apple.com
-    skip-cert-verify: true
-    tfo: false
-    tls: false
-    type: vless
-    udp: true
-    uuid: fdf14816-1162-423e-ac72-b15f40f2c1d1
-  - name: 🇫🇷FR_1|3.1MB/s
-    port: 9443
-    server: 138.199.47.247
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇫🇷FR_2|2.5MB/s
+    type: hysteria2
+  - name: 🇫🇷FR_1|2.4MB/s
     password: None
-    port: 8081
-    server: 31.32.19.111
+    port: 9443
+    server: 213.139.9.142
     skip-cert-verify: true
     tls: true
     type: http
-  - name: 🇫🇷FR_3|2.9MB/s
-    port: 8090
-    server: 80.124.109.22
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇫🇷FR_4|3.2MB/s
-    password: ''
+  - client-fingerprint: firefox
+    encryption: none
+    name: 🇫🇷FR_2|1.8MB/s
+    network: xhttp
     port: '443'
-    server: 82.66.235.221
-    skip-cert-verify: true
+    reality-opts:
+      public-key: SLXgW1YQhsCoLjKzDjXwT4QA8T75b63olU9LV7U9uCk
+      short-id: '!!str bbbef851c00caeb6'
+    server: fr.tokiandrift.space
+    servername: fr.tokiandrift.space
     tls: true
-    type: http
-    username: ''
+    type: vless
+    udp: true
+    uuid: 255a8044-3337-473e-af26-46a37208adcc
+    xhttp-opts:
+      host: fr.tokiandrift.space
+      mode: stream-one
+      no-grpc-header: true
+      path: /cdn/v3/media/segments
+      reuse-settings:
+        c-max-reuse-times: 64-128
+        h-keep-alive-period: 25
+        h-max-request-times: 128-256
+        h-max-reusable-secs: 600-900
+        max-connections: 2-3
+      x-padding-bytes: 100-1500
+    xudp: true
   - name: FR_speednode_0008
     port: 19362
     server: 51.159.225.197
@@ -200,6 +54,15 @@ proxies:
     tls: true
     type: http
     udp: true
+  - name: FR_speednode_0010
+    password: 'null'
+    port: 23856
+    server: 51.159.225.196
+    skip-cert-verify: true
+    tls: true
+    type: http
+    udp: true
+    username: 'null'
   - name: FR_speednode_0011
     port: 23856
     server: 51.159.225.196

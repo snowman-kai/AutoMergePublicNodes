@@ -1,4 +1,28 @@
 proxies:
+  - name: 🇷🇺RU_1|1.5MB/s
+    password: None
+    port: 1446
+    server: 46.29.166.134
+    skip-cert-verify: true
+    tls: true
+    type: http
+  - client-fingerprint: edge
+    encryption: none
+    grpc-opts:
+      grpc-service-name: grpc-tunnel
+    name: 🇷🇺RU_2|2.4MB/s
+    network: grpc
+    port: '25443'
+    reality-opts:
+      public-key: ohYKVa5uVRwqzZndETnytrSXE63zaUFVNN1_T4eTHnc
+      short-id: '!!str 568dfd0846c2'
+    server: 5.42.105.63
+    servername: cdvid.gamescloud.uk
+    tls: true
+    type: vless
+    udp: true
+    uuid: 3d78373f-bdbd-428a-9b83-aea64264bf4e
+    xudp: true
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
     name: RU_speednode_0029
