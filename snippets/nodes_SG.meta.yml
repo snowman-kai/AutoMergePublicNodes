@@ -128,17 +128,3 @@ proxies:
       headers:
         Host: speedtest.danfengno1.kdns.fr
       path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-  - client-fingerprint: chrome
-    name: 🇸🇬SG_1|4.7MB/s
-    network: tcp
-    port: '4022'
-    reality-opts:
-      public-key: 2g8FZHxPWjphq568-OS8ypk7qb76HiMhWua0UAJfOl8
-      short-id: '!!str ace0f99d'
-    server: 106.75.143.18
-    servername: buylite.tv.apple.com
-    tls: true
-    type: vless
-    udp: true
-    uuid: e4e2afbe-1a21-4ca2-a22f-b5417e825687
-    xudp: true
