@@ -71,29 +71,11 @@ proxies:
       headers:
         Host: de01.564895.xyz
       path: '%2Fasdasd'
-  - name: 🇩🇪DE_4|1.4MB/s
-    password: None
-    port: 443
-    server: 172.64.68.89
+  - name: 🇩🇪DE_1|1.9MB/s
+    port: 12345
+    server: 141.147.19.47
     skip-cert-verify: true
-    tls: true
     type: http
-    username: null
-  - name: 🇩🇪DE_2|1.8MB/s
-    password: None
-    port: 443
-    server: 149.36.50.129
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇩🇪DE_3|1.0MB/s
-    password: None
-    port: 443
-    server: 87.249.132.97
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
   - name: DE_speednode_0004
     port: 443
     server: 213.109.163.119

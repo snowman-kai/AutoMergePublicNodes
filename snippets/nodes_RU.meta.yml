@@ -1,28 +1,4 @@
 proxies:
-  - name: 🇷🇺RU_1|1.6MB/s
-    password: None
-    port: 1446
-    server: 46.29.166.134
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - client-fingerprint: ios
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇷🇺RU_2|2.4MB/s
-    network: tcp
-    port: '443'
-    reality-opts:
-      public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc
-      short-id: '!!str d3f314d0b692f63d'
-    server: 188.130.209.204
-    servername: promo-digital.wb.ru
-    tls: true
-    type: vless
-    udp: true
-    uuid: 4a0812f0-f9d7-4afd-9ae3-6c38e1e59485
-    xudp: true
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
     name: RU_speednode_0029
