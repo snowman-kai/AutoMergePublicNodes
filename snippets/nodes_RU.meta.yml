@@ -1,5 +1,5 @@
 proxies:
-  - name: 🇷🇺RU_1|2.1MB/s
+  - name: 🇷🇺RU_1|1.6MB/s
     password: None
     port: 1446
     server: 46.29.166.134
@@ -7,27 +7,21 @@ proxies:
     tls: true
     type: http
     username: null
-  - name: 🇷🇺RU_2|2.4MB/s
-    password: ''
-    port: '10800'
-    server: 46.8.158.144
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - client-fingerprint: edge
+  - client-fingerprint: ios
+    encryption: none
     flow: xtls-rprx-vision
-    name: 🇷🇺RU_3|2.9MB/s
+    name: 🇷🇺RU_2|2.4MB/s
     network: tcp
     port: '443'
     reality-opts:
-      public-key: 7ZOPr8Vbg0jSLw91-ONdvxGzGfen9sRz1VMpmau72RY
-      short-id: '!!str 31a2cc'
-    server: ru1.aoyou.stream
-    servername: news.apple.com
+      public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc
+      short-id: '!!str d3f314d0b692f63d'
+    server: 188.130.209.204
+    servername: promo-digital.wb.ru
     tls: true
     type: vless
     udp: true
-    uuid: 1d2392a0-1713-4ea9-be88-8a1e5ddab6bd
+    uuid: 4a0812f0-f9d7-4afd-9ae3-6c38e1e59485
     xudp: true
   - client-fingerprint: firefox
     flow: xtls-rprx-vision
