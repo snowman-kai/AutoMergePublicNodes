@@ -1,90 +1,202 @@
 proxies:
-  - name: '@KAFING_2'
-    obfs: salamander
-    obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
-    password: b4bd0613-ff7c-4f2f-954d-185915e6ddad
-    port: 35000
-    server: 181.214.99.162
+  - name: 🔹69@oneclickvpnkeys
+    password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+    port: 443
+    server: 18.194.242.173
     skip-cert-verify: true
-    sni: api.kermanshahi.org
+    sni: 127.0.0.1
     tls: false
     type: hysteria2
-  - client-fingerprint: firefox
-    name: 🇩🇪 德国｜06｜BGP
-    network: ws
-    port: 2053
-    server: cf01.564895.xyz
-    servername: de01.564895.xyz
+  - auth: HATATEAYA
+    name: 🇳🇱NL_1|2.6MB/s
+    obfs: salamander
+    obfs-password: HATATEAYA
+    password: HATATEAYA
+    port: 8964
+    server: 77.90.15.183
     skip-cert-verify: true
-    tfo: false
+    sni: ganlanc.at
+    tls: false
+    type: hysteria2
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_2|2.4MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: AiLOqdc8MtLlRdtyjM9wNd1CIStXleOlP6-NCOSKlTg
+      short-id: '!!str '
+    server: 46.247.109.129
+    servername: auto-2.storagedirectguide.com
     tls: true
     type: vless
     udp: true
-    uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-    ws-opts:
-      headers:
-        Host: de01.564895.xyz
-      path: /asdasd
-  - client-fingerprint: firefox
-    name: 🇩🇪 德国｜07｜BGP
-    network: ws
-    port: 2096
-    server: cf02.564895.xyz
-    servername: de01.564895.xyz
-    skip-cert-verify: true
-    tfo: false
+    uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    grpc-opts:
+      grpc-service-name: api-mod
+    name: 🇩🇪DE_3|1.6MB/s
+    network: grpc
+    port: '443'
+    reality-opts:
+      public-key: eyEGQfdxyhZG0bCKlwp8hSihdc5WHTGmw4umrW4_bxY
+      short-id: '!!str '
+    server: 37.114.37.192
+    servername: api-mod.storagedirectguide.com
     tls: true
     type: vless
     udp: true
-    uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-    ws-opts:
-      headers:
-        Host: de01.564895.xyz
-      path: /asdasd
-  - client-fingerprint: firefox
-    flow: ''
-    name: 🇩🇪德国｜06｜BGP
-    network: ws
-    port: 2053
-    server: cf01.564895.xyz
-    servername: de01.564895.xyz
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-    ws-opts:
-      headers:
-        Host: de01.564895.xyz
-      path: '%2Fasdasd'
-  - client-fingerprint: firefox
-    flow: ''
-    name: 🇩🇪德国｜07｜BGP
-    network: ws
-    port: 2096
-    server: cf02.564895.xyz
-    servername: de01.564895.xyz
-    skip-cert-verify: true
-    tls: true
-    type: vless
-    uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
-    ws-opts:
-      headers:
-        Host: de01.564895.xyz
-      path: '%2Fasdasd'
-  - name: 🇩🇪DE_1|1.9MB/s
-    password: None
-    port: 443
-    server: 149.36.50.157
+    uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
+    xudp: true
+  - name: DK_speednode_0005
+    port: 9002
+    server: 158.173.154.5
     skip-cert-verify: true
     tls: true
     type: http
-    username: null
-  - name: 🇩🇪DE_2|2.5MB/s
-    port: 9443
-    server: 213.177.229.161
+    udp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_5|3.0MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: K3Qci9i3W2_Pn88RiUGD8cjfuJ0fmFbc7e_YyupZBkM
+      short-id: '!!str 431c6edc'
+    server: de5.rvpn.online
+    servername: onlycats.photos
+    tls: true
+    type: vless
+    udp: true
+    uuid: 88888888-8888-8888-8888-888888888888
+    xudp: true
+  - client-fingerprint: chrome
+    encryption: none
+    flow: xtls-rprx-vision
+    name: 🇩🇪DE_6|2.5MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: MoLUMyBCaTkH_xXlZF6HwgM2oi8bBeW08JQmyu7HVEo
+      short-id: '!!str e7b8e3f3'
+    server: de6.rvpn.online
+    servername: onlycats.photos
+    tls: true
+    type: vless
+    udp: true
+    uuid: 88888888-8888-8888-8888-888888888888
+    xudp: true
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    name: 🇩🇪DE_7|2.2MB/s
+    network: xhttp
+    port: '443'
+    server: 104.18.139.67
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    xhttp-opts:
+      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+      path: /api
+    xudp: true
+  - alpn:
+      - h3
+      - ' h2'
+      - ' http/1.1'
+    client-fingerprint: chrome
+    name: 🇩🇪DE_8|1.8MB/s
+    network: ws
+    password: XnjwEJbEbqBt8bjlrKZPwg
+    port: '443'
+    server: 8.6.112.0
+    skip-cert-verify: false
+    sni: cf.lunex-vpn.xyz
+    type: trojan
+    udp: true
+    ws-opts:
+      headers:
+        User-Agent: Mozilla/5.0 (Windows NT 6.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+          like Gecko) Chrome/57.0.2987.133 Safari/537.36
+      path: /Lunex
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    name: 🇩🇪DE_9|3.2MB/s
+    network: xhttp
+    port: '443'
+    server: 104.18.137.67
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    xhttp-opts:
+      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+      path: /api
+    xudp: true
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    name: 🇩🇪DE_10|1.4MB/s
+    network: xhttp
+    port: '443'
+    server: 104.18.140.67
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    xhttp-opts:
+      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+      path: /api
+    xudp: true
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    name: 🇩🇪DE_11|2.6MB/s
+    network: xhttp
+    port: '443'
+    server: 104.18.141.67
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    xhttp-opts:
+      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+      path: /api
+    xudp: true
+  - alpn:
+      - h2
+    client-fingerprint: firefox
+    name: 🇩🇪DE_12|3.3MB/s
+    network: xhttp
+    port: '443'
+    server: 104.18.138.67
+    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
+    tls: true
+    type: vless
+    udp: true
+    uuid: 0280c276-641b-49af-b699-4931c30ac137
+    xhttp-opts:
+      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
+      path: /api
+    xudp: true
+  - name: 🇩🇪DE_13|3.3MB/s
+    password: 'null'
+    port: '9002'
+    server: 158.173.154.4
     skip-cert-verify: true
     tls: true
     type: http
+    username: 'null'
   - name: DE_speednode_0004
     port: 443
     server: 213.109.163.119

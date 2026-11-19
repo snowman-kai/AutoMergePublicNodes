@@ -1,11 +1,4 @@
 proxies:
-  - name: 🇺🇸 7@exclavevpn
-    password: 146d567c-6335-4e63-a8aa-7ec068642440
-    port: 443
-    server: fi1.obxodvpn.us
-    sni: fi1.obxodvpn.us
-    tls: false
-    type: hysteria2
   - name: 🇺🇸139909 | ⚡️Telegram = t.me/S...
     password: qQe1z5kU8kN6SlKnDt9Ru3Qp
     port: 443
@@ -14,186 +7,226 @@ proxies:
     sni: vk.com
     tls: false
     type: hysteria2
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: 🇺🇸 US1@ripaojiedian
+  - name: ' 🇺🇸 15@exclavevpn'
+    password: yO8pug5XmwkBXBAjleYIaVt
+    port: 443
+    server: 192.255.152.147
+    skip-cert-verify: true
+    sni: 192.255.152.147
+    tls: false
+    type: hysteria2
+  - name: 美国4|@ripaojiedian
+    network: tcp
+    password: MiTiVPN
+    port: 443
+    server: 167.82.76.27
+    skip-cert-verify: true
+    sni: ssl.fastly.com
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: 🇺🇸 美国2|@ripaojiedian
     network: ws
     port: 443
-    server: 156.225.64.8
-    servername: speedtest.danfengno1.kdns.fr
+    reality-opts:
+      public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+      short-id: '!!str 60e39a7e'
+    server: 172.235.53.103
+    servername: itunes.apple.com
     skip-cert-verify: true
     tfo: false
     tls: true
     type: vless
     udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
     ws-opts:
-      headers:
-        Host: speedtest.danfengno1.kdns.fr
-      path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: 🇺🇸 US2@ripaojiedian
+      path: /ws
+  - client-fingerprint: chrome
+    name: 🇺🇸 美国3|@ripaojiedian
     network: ws
     port: 443
-    server: 154.17.9.239
-    servername: speedtest.danfengno1.kdns.fr
+    reality-opts:
+      public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+      short-id: '!!str 357a37e1'
+    server: 172.236.239.126
+    servername: itunes.apple.com
     skip-cert-verify: true
     tfo: false
     tls: true
     type: vless
     udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
     ws-opts:
-      headers:
-        Host: speedtest.danfengno1.kdns.fr
-      path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
+      path: /ws
+  - name: 美国5|@ripaojiedian
+    network: tcp
+    password: Mitivpn
+    port: 443
+    server: 151.101.110.219
+    skip-cert-verify: true
+    sni: ssl.fastly.com
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
     flow: ''
-    name: US1@ripaojiedian
+    name: 美国2|@ripaojiedian
     network: ws
     port: 443
-    server: 156.225.64.8
-    servername: speedtest.danfengno1.kdns.fr
-    tls: true
+    reality-opts:
+      public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
+      short-id: '!!str 60e39a7e'
+    server: 172.235.53.103
+    servername: itunes.apple.com
+    tls: false
     type: vless
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
     ws-opts:
-      headers:
-        Host: speedtest.danfengno1.kdns.fr
-      path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
+      path: '%2Fws'
+  - client-fingerprint: chrome
     flow: ''
-    name: US2@ripaojiedian
+    name: 美国3|@ripaojiedian
     network: ws
     port: 443
-    server: 154.17.9.239
-    servername: speedtest.danfengno1.kdns.fr
-    tls: true
+    reality-opts:
+      public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
+      short-id: '!!str 357a37e1'
+    server: 172.236.239.126
+    servername: itunes.apple.com
+    tls: false
     type: vless
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
+    ws-opts:
+      path: '%2Fws'
+  - encryption: mlkem768x25519plus.native.0rtt.jBZbmkgY90BVK1aIyJu5VvLA9lyGsIUMonmRnxJD8NWRudiZ5llyrDKLYpfArQdsGWpZ2JGkXwJxuZEK-_F4uCC9Gcth_PphfxQPi5kydSJvesqCRrDFzYMpzfpEcMSeM4l7z7O9zKTGiYuEXStjWmJOW3pw4gdKg0DALApQu4W1zVExUld6DeG7ouREdpGpw-ygmjqwrzaJDEqa55ZfwQRGgbUz6SdQpgCT5jBCF7gQzzGnLuVt8xpsGRW1CSUCT0G9dmEsCgYtA8WTvlFTVCQ0Y9yylYAAkgBhoQUNgVA_C6MABjVNjHtoT3oGYoeNNARS2lmh86UkZvgBhmMNLasxJ9upPfHMGvmYpfoKCTYJuZgl5Fg9bmWfaVYdgfAyWwPIPIN6cbF9EGYGileIvbZwXBx8p7Zyj2rKk-F7OJw-tHg_21NBAPMtzuHPZzmUjvaP8kKQUpuKu5xy3fxyW0VFjanK7MnCpvfJ4Oe3vYUAQnFxlaRRFwA9S7HIxHSBLaEaDDAskYV3ICZMh_QIg9fPfzkqe2dATdYB4edGpllF3mWAyYkJ4Kk4-kZlPstpPwhvHEW-_VYsc4p0OOBO69EX9aaLXMJhXlAbDcPJk_RukTW9myFe2RtfHYyN1rY1lKwQoCEnfJOyWNDCauJVe4k-XDJFStYn5paxUcVaOMxrKgqI0aew2qpB-1c0oETP7-Mh8_ZgPKvN_GCLceylAVpydhN-02vBzno07aBlZyqL4baWdmrDd3u_xTwynLxCRPKTe_ZiRImidlIS9ES1Q2sRr8Iajlutn_GUtFWI2EMwgaEXEfCOPBA-P_ElfGQXiogSqvsqEgBu0QthXmABQ9MoPidREqcVDDEWWYI_XPcVo7hzjLa4gpYlRLib8MO3HjK9ULWbaImem6mQZbxlrImK-DtfM0oUrtw8mFcQIhZtSpAe90Kx6ohe6Fo8QVcYKlNCR_RWJWtZGkibssFOzVI7XOmA4UW1LpnAPYzN2FTOcgQtaVzJW7mgWIpq-XGaxNSA8-Fdh7hgRnye82JuJXIxikqgB4kuaEh-UhtJdzs2jFVmFJO8b1EvffgbBtdXBbyb5eyspaR6BtUyO6EVUEO_6wskr7szhxWc2yc8O0Ge4RESvqpqNne6SFcWEpPPdclj4KAupBIyBEwk_XYSofCcVHpOFxmeZgOpLyKHF8IzRCUK2hDEROLOIUCgh9axHJWivwqxtsKktQVgx2weipqnmvhj7ItbCymvWgi8ndU6KVJAtKaNUCMA5iojgGKoKgVII-Y6TaU3BAcaYdl9p1BLr4awr9OslliPLPNzxuVBuNySGkJWFLkVeHpW_SYS0oJj3QwboyGGooJVJJykE4K_p9xBeEWR4ZJ9aii1oIwHkRijvBWnurUCRVAuFFYfWGIgHDuqz_xC4lYVLEA74UUHorpl6HZjNhWCEVJtZEUvxsem2XpQqPUt8Nxy5AwprAo9srMpWmegspyreEgCQ0s1ojqe9THOE1XKC3uwB6Y9rIITpBtbIwC4mIJeFcqPj5Napz6XpG7eqHsEy86tjD4z5pi8X7kvMUS5MplObQk
+    name: 🇺🇸US_1|3.1MB/s
+    network: tcp
+    port: 18434
+    server: ryanserver.ir
+    tls: false
+    type: vless
+    udp: true
+    uuid: 88888888-8888-8888-8888-888888888888
+  - alterId: 64
+    cipher: auto
+    name: 🇺🇸US_2|3.0MB/s
+    network: ws
+    port: 30004
+    server: 192.74.236.148
+    skip-cert-verify: true
+    tls: true
+    type: vmess
+    udp: true
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
     ws-opts:
       headers:
-        Host: speedtest.danfengno1.kdns.fr
-      path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-  - cipher: chacha20-ietf-poly1305
-    name: 🇺🇸US_1|4.4MB/s
-    password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
-    port: 1080
-    server: 88.216.254.18
-    type: ss
+        Host: www.91334565.xyz
+      path: /path/1733477783705
+  - client-fingerprint: chrome
+    encryption: none
+    name: 🇺🇸US_3|4.7MB/s
+    network: tcp
+    port: '443'
+    reality-opts:
+      public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
+      short-id: '!!str 868419504747f6de'
+    server: 84.32.54.237
+    servername: rly-gw-cfg.galioncc.com
+    tls: true
+    type: vless
     udp: true
-  - name: 🇺🇸US_2|3.3MB/s
-    password: None
-    port: 9002
-    server: 138.199.35.217
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_3|2.1MB/s
-    password: 'null'
-    port: 9002
-    server: 138.199.35.206
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: 🇺🇸US_4|1.2MB/s
-    password: None
-    port: 9002
-    server: 138.199.35.205
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_5|3.0MB/s
-    port: 443
-    server: 129.153.93.183
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_6|2.0MB/s
-    port: 9002
-    server: 138.199.35.197
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: 🇺🇸US_7|3.1MB/s
-    password: None
-    port: 9002
-    server: 138.199.35.208
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_8|1.6MB/s
-    password: None
-    port: 443
-    server: 198.44.135.27
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_9|2.0MB/s
-    password: None
-    port: 443
-    server: 12.202.180.10
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_10|1011KB/s
-    password: None
+    uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
+    xudp: true
+  - name: 🇺🇸US_4|1.7MB/s
+    password: l1tlrdx52v
+    port: 62000
+    server: 66.253.2.69
+    type: socks5
+    username: u_rb1dba2
+  - name: 🇺🇸US_5|1.2MB/s
+    password: ''
     port: 443
     server: 149.88.21.129
     skip-cert-verify: true
     tls: true
     type: http
-    username: null
-  - name: 🇺🇸US_11|2.1MB/s
-    password: None
-    port: 443
-    server: 167.88.60.242
-    skip-cert-verify: true
-    tls: true
-    type: http
-  - name: 🇺🇸US_12|1.4MB/s
-    password: None
-    port: 443
-    server: 68.235.56.59
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: null
-  - name: 🇺🇸US_13|3.1MB/s|K001-260618
+    udp: true
+    username: ''
+    x-toolall-mihomo: true
+  - name: 🇺🇸US_6|1.1MB/s
+    port: 44499
+    server: 45.61.188.134
+    type: socks5
+  - name: 🇺🇸US_7|2.3MB/s
     password: ''
-    port: 443
-    server: 149.34.248.65
+    port: 9443
+    server: 38.95.111.226
     skip-cert-verify: true
-    sub_tag: K001-260618
     tls: true
     type: http
     udp: true
     username: ''
-  - down: ''
-    fingerprint: ''
-    name: 🇺🇸US_14|5.2MB/s
-    obfs: ''
-    obfs-password: ''
-    password: d095ecc6-7b69-11eb-b77b-f23c913c8d2b
+    x-toolall-mihomo: true
+  - name: 🇺🇸US_8|2.2MB/s
+    port: 443
+    server: 149.34.248.65
+    skip-cert-verify: true
+    sni: 149.34.248.65
+    tls: true
+    type: http
+  - fingerprint: ''
+    name: 🇺🇸US_9|1.7MB/s
+    password: 0324fbc29561
     port: '443'
-    server: 64.32.13.230
-    skip-cert-verify: false
-    sni: ac8140ad-tmm5c0-tvk1qn-19les.los.hyhuawei.com
-    type: hysteria2
-    up: ''
+    server: sdf65h46wr.df6h451rh.xin
+    skip-cert-verify: true
+    sni: images.ctfassets.net
+    type: anytls
+    udp: true
+    username: 0324fbc29561
+  - name: 🇺🇸US_10|3.2MB/s
+    password: test123
+    port: '1080'
+    server: 104.168.249.36
+    skip-cert-verify: true
+    type: socks5
+    username: test123
+  - name: 🇺🇸US_11|4.1MB/s
+    password: ''
+    port: '3128'
+    server: 172.235.157.127
+    skip-cert-verify: true
+    type: http
+    username: ''
+  - name: 🇺🇸US_12|2.9MB/s
+    password: ''
+    port: '7777'
+    server: 47.251.249.48
+    skip-cert-verify: true
+    type: socks5
+    username: ''
+  - name: 🇺🇸US_13|1.4MB/s
+    password: kingstar123++
+    port: '62000'
+    server: 23.230.200.249
+    skip-cert-verify: true
+    type: socks5
+    username: kingstar123
+  - name: 🇺🇸US_14|1.2MB/s
+    password: ''
+    port: '58764'
+    server: 118.184.140.90
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
+  - name: 🇺🇸US_15|2.9MB/s
+    password: ''
+    port: '443'
+    server: 68.235.56.51
+    skip-cert-verify: true
+    tls: true
+    type: http
+    username: ''
   - name: US_speednode_0039
     port: 8443
     server: 44.248.167.117

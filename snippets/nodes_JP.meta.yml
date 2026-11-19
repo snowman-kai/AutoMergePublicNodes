@@ -1,103 +1,90 @@
 proxies:
-  - client-fingerprint: firefox
-    name: 🇯🇵 日本｜08｜BGP
+  - name: 🇯🇵218802 | ⚡️Telegram = t.me/L...
+    password: oracle_hy2_pass_2026
+    port: 8443
+    server: 129.225.181.46
+    skip-cert-verify: true
+    sni: bing.com
+    tls: false
+    type: hysteria2
+  - client-fingerprint: chrome
+    name: 🇯🇵 日本|@ripaojiedian
     network: ws
-    port: 2096
-    server: cf02.564895.xyz
-    servername: jp01.564895.xyz
+    port: 443
+    reality-opts:
+      public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+      short-id: '!!str 7c6d6833'
+    server: 139.162.91.239
+    servername: itunes.apple.com
     skip-cert-verify: true
     tfo: false
     tls: true
     type: vless
     udp: true
-    uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+    uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
     ws-opts:
-      headers:
-        Host: jp01.564895.xyz
-      path: /asdasd
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: 🇯🇵 JP1@ripaojiedian
+      path: /ws
+  - name: 日本2|@ripaojiedian
+    network: tcp
+    password: d050aca3-9df2-4461-90ec-92373c1d7636
+    port: 44184
+    server: v2jp.k1.ssnss.live
+    skip-cert-verify: true
+    type: trojan
+    udp: true
+  - client-fingerprint: chrome
+    name: 🇯🇵 日本3|@ripaojiedian
     network: ws
-    port: 5002
-    server: 104.194.83.133
-    servername: speedtest.danfengno1.kdns.fr
+    port: 443
+    reality-opts:
+      public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
+      short-id: '!!str c29f9af4'
+    server: 172.105.216.21
+    servername: itunes.apple.com
     skip-cert-verify: true
     tfo: false
     tls: true
     type: vless
     udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
     ws-opts:
-      headers:
-        Host: speedtest.danfengno1.kdns.fr
-      path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    name: 🇯🇵 JP2@ripaojiedian
-    network: ws
-    port: 18549
-    server: 45.196.233.54
-    servername: speedtest.danfengno1.kdns.fr
-    skip-cert-verify: true
-    tfo: false
-    tls: true
-    type: vless
-    udp: true
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: speedtest.danfengno1.kdns.fr
-      path: /danfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st
-  - client-fingerprint: firefox
+      path: /ws
+  - client-fingerprint: chrome
     flow: ''
-    name: 🇯🇵日本｜08｜BGP
+    name: 日本|@ripaojiedian
     network: ws
-    port: 2096
-    server: cf02.564895.xyz
-    servername: jp01.564895.xyz
-    skip-cert-verify: true
-    tls: true
+    port: 443
+    reality-opts:
+      public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
+      short-id: '!!str 7c6d6833'
+    server: 139.162.91.239
+    servername: itunes.apple.com
+    tls: false
     type: vless
-    uuid: 2f4c3fc5-8fa2-4576-a583-8f98a6026887
+    uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
     ws-opts:
-      headers:
-        Host: jp01.564895.xyz
-      path: '%2Fasdasd'
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
+      path: '%2Fws'
+  - client-fingerprint: chrome
     flow: ''
-    name: JP1@ripaojiedian
+    name: 日本3|@ripaojiedian
     network: ws
-    port: 5002
-    server: 104.194.83.133
-    servername: speedtest.danfengno1.kdns.fr
-    tls: true
+    port: 443
+    reality-opts:
+      public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
+      short-id: '!!str c29f9af4'
+    server: 172.105.216.21
+    servername: itunes.apple.com
+    tls: false
     type: vless
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
+    uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
     ws-opts:
-      headers:
-        Host: speedtest.danfengno1.kdns.fr
-      path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
-  - alpn:
-      - http/1.1
-    client-fingerprint: firefox
-    flow: ''
-    name: JP2@ripaojiedian
-    network: ws
-    port: 18549
-    server: 45.196.233.54
-    servername: speedtest.danfengno1.kdns.fr
-    tls: true
-    type: vless
-    uuid: 26524cce-d514-4014-a426-365fb266a14d
-    ws-opts:
-      headers:
-        Host: speedtest.danfengno1.kdns.fr
-      path: '%2Fdanfeng-public-ng3zjr-qba1sq-5pqc-59s5q5st'
+      path: '%2Fws'
+  - name: 🇯🇵JP_1|4.6MB/s
+    password: EGJDy5Kg
+    port: 42000
+    server: 103.248.150.50
+    type: socks5
+    username: paZFN3JA
   - client-fingerprint: chrome
     flow: xtls-rprx-vision
     name: JP_speednode_0018
