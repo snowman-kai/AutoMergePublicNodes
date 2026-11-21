@@ -1,32 +1,16 @@
 proxies:
-  - name: 🇬🇧GB_1|1.2MB/s
-    password: ''
-    port: '10000'
-    server: 138.68.183.71
-    skip-cert-verify: true
-    type: socks5
-    username: ''
-  - client-fingerprint: chrome
-    encryption: none
-    flow: xtls-rprx-vision
-    name: 🇬🇧GB_2|1.4MB/s
-    network: tcp
-    port: '62015'
-    reality-opts:
-      public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-      short-id: '!!str fa514b83'
-    server: free.fugui.lol
-    servername: swdist.apple.com
-    tls: true
+  - encryption: none
+    http-opts:
+      headers:
+        Host:
+          - fast.com
+      path:
+        - /
+    name: 🇬🇧GB_1|3.4MB/s
+    network: http
+    port: '443'
+    server: 161.35.37.106
     type: vless
     udp: true
-    uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7
+    uuid: 40992c2a-513e-4837-9594-23411fd42afd
     xudp: true
-  - name: 🇬🇧GB_3|2.8MB/s
-    password: ''
-    port: '9443'
-    server: 37.221.113.162
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''

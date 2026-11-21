@@ -1,10 +1,9 @@
 proxies:
-  - name: 🇯🇵218802 | ⚡️Telegram = t.me/L...
-    password: oracle_hy2_pass_2026
-    port: 8443
-    server: 129.225.181.46
-    skip-cert-verify: true
-    sni: bing.com
+  - name: ' 🇯🇵 20@exclavevpn'
+    password: gG1JyjbJgDmEMvdTgcD9wVOS
+    port: 443
+    server: 35.221.91.82
+    sni: www.microsoft.com
     tls: false
     type: hysteria2
   - client-fingerprint: chrome
@@ -13,7 +12,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-      short-id: '7c6d6833'
+      short-id: '!!str 7c6d6833'
     server: 139.162.91.239
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -38,7 +37,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-      short-id: 'c29f9af4'
+      short-id: '!!str c29f9af4'
     server: 172.105.216.21
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -56,7 +55,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-      short-id: '7c6d6833'
+      short-id: '!!str 7c6d6833'
     server: 139.162.91.239
     servername: itunes.apple.com
     tls: true
@@ -71,7 +70,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-      short-id: 'c29f9af4'
+      short-id: '!!str c29f9af4'
     server: 172.105.216.21
     servername: itunes.apple.com
     tls: true
@@ -79,7 +78,7 @@ proxies:
     uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
     ws-opts:
       path: '%2Fws'
-  - name: 🇯🇵JP_1|4.6MB/s
+  - name: 🇯🇵JP_1|2.4MB/s
     password: EGJDy5Kg
     port: 42000
     server: 103.248.150.50
@@ -92,7 +91,7 @@ proxies:
     port: 46105
     reality-opts:
       public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-      short-id: '28f5c1f8f98a'
+      short-id: '!!str 28f5c1f8f98a'
     server: funagfrdfs.alixxplay.com
     servername: www.lamer.com.sg
     skip-cert-verify: false
@@ -108,7 +107,7 @@ proxies:
     port: 54528
     reality-opts:
       public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-      short-id: '54cca3c1c1c7'
+      short-id: '!!str 54cca3c1c1c7'
     server: funagfrdfs.alixxplay.com
     servername: www.apple.com
     skip-cert-verify: false

@@ -1,28 +1,14 @@
 proxies:
-  - client-fingerprint: firefox
-    flow: xtls-rprx-vision
-    name: 🇸🇪SE_1|2.8MB/s
+  - alpn:
+      - h2
+      - http/1.1
+    client-fingerprint: chrome
+    name: 🇸🇪SE_1|1.4MB/s
     network: tcp
-    port: 443
-    reality-opts:
-      public-key: 1VhM5R3IlHPjzxEeTuik1lcUad-HI6C57MzXxppyXg4
-    server: 88.216.189.192
-    servername: modx.wey-land.net
-    tls: true
-    type: vless
-    udp: true
-    uuid: 955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6
-  - client-fingerprint: firefox
-    name: 🇸🇪SE_2|2.3MB/s
-    port: 443
-    reality-opts:
-      public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-      short-id: '!!str a7c92e4b10d6f835'
-    server: 88.216.60.73
-    servername: ns-api-gw.galioncc.com
+    password: FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF
+    port: '443'
+    server: 95.143.196.32
     skip-cert-verify: false
-    sni: ns-api-gw.galioncc.com
-    tls: true
-    type: vless
+    sni: connect-se.mimowhat.online
+    type: trojan
     udp: true
-    uuid: a30903dc-1bf0-4be5-8b1b-603a3a56211c
