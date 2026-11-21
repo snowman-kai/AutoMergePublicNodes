@@ -30,7 +30,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
-      short-id: '!!str 60e39a7e'
+      short-id: '60e39a7e'
     server: 172.235.53.103
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -47,7 +47,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
-      short-id: '!!str 357a37e1'
+      short-id: '357a37e1'
     server: 172.236.239.126
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -74,10 +74,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
-      short-id: '!!str 60e39a7e'
+      short-id: '60e39a7e'
     server: 172.235.53.103
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
     ws-opts:
@@ -89,10 +89,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
-      short-id: '!!str 357a37e1'
+      short-id: '357a37e1'
     server: 172.236.239.126
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
     ws-opts:
@@ -128,7 +128,7 @@ proxies:
     port: '443'
     reality-opts:
       public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-      short-id: '!!str 868419504747f6de'
+      short-id: '868419504747f6de'
     server: 84.32.54.237
     servername: rly-gw-cfg.galioncc.com
     tls: true

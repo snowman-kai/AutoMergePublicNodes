@@ -13,7 +13,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-      short-id: '!!str 7c6d6833'
+      short-id: '7c6d6833'
     server: 139.162.91.239
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -38,7 +38,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-      short-id: '!!str c29f9af4'
+      short-id: 'c29f9af4'
     server: 172.105.216.21
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -56,10 +56,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-      short-id: '!!str 7c6d6833'
+      short-id: '7c6d6833'
     server: 139.162.91.239
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
     ws-opts:
@@ -71,10 +71,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-      short-id: '!!str c29f9af4'
+      short-id: 'c29f9af4'
     server: 172.105.216.21
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
     ws-opts:
@@ -92,7 +92,7 @@ proxies:
     port: 46105
     reality-opts:
       public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-      short-id: '!!str 28f5c1f8f98a'
+      short-id: '28f5c1f8f98a'
     server: funagfrdfs.alixxplay.com
     servername: www.lamer.com.sg
     skip-cert-verify: false
@@ -108,7 +108,7 @@ proxies:
     port: 54528
     reality-opts:
       public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-      short-id: '!!str 54cca3c1c1c7'
+      short-id: '54cca3c1c1c7'
     server: funagfrdfs.alixxplay.com
     servername: www.apple.com
     skip-cert-verify: false

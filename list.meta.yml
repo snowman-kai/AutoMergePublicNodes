@@ -15,7 +15,6 @@ dns:
   nameserver-policy:
     geosite:googlefcm: https://doh.pub/dns-query
 external-controller: 127.0.0.1:9090
-global-client-fingerprint: chrome
 ipv6: true
 log-level: warning
 mixed-port: 7890
@@ -488,7 +487,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-      short-id: '7c6d6833'
+      short-id: 7c6d6833
     server: 139.162.91.239
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -520,7 +519,7 @@ proxies:
     servername: mother-earth.fyi
     skip-cert-verify: true
     tfo: false
-    tls: false
+    tls: true
     type: vless
     udp: true
     uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f
@@ -538,7 +537,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-      short-id: 'c29f9af4'
+      short-id: c29f9af4
     server: 172.105.216.21
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -555,7 +554,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
-      short-id: '640c807d'
+      short-id: 640c807d
     server: 139.162.20.241
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -572,7 +571,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
-      short-id: '60e39a7e'
+      short-id: 60e39a7e
     server: 172.235.53.103
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -589,7 +588,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
-      short-id: '357a37e1'
+      short-id: 357a37e1
     server: 172.236.239.126
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -616,10 +615,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: 7PBmAR6CGAh2naIi09rlP_PtmLmqhlXF_toZEdAHmRo
-      short-id: '7c6d6833'
+      short-id: 7c6d6833
     server: 139.162.91.239
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: b0dc852a-97ec-4d4e-9179-f0e5c2ef1489
     ws-opts:
@@ -631,10 +630,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: Mjv5qe_CrvfHdVwgtyqYbqPesZ-1oko2XYg3dguzvxg
-      short-id: 'c29f9af4'
+      short-id: c29f9af4
     server: 172.105.216.21
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: 76f1ce49-bcea-4680-b9ef-16592269445b
     ws-opts:
@@ -646,10 +645,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
-      short-id: '640c807d'
+      short-id: 640c807d
     server: 139.162.20.241
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
     ws-opts:
@@ -661,10 +660,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: YS1T3hKkZSWZBej5I1O2s3QQ-jf5JOAY24EZbp9faX8
-      short-id: '60e39a7e'
+      short-id: 60e39a7e
     server: 172.235.53.103
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: 38ae2bc6-577c-4e0a-b49c-81c44a0b4383
     ws-opts:
@@ -676,10 +675,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: SJAHlQal4h4gy7BFInw13ute3ZM49kXMWCkJj3F4tW0
-      short-id: '357a37e1'
+      short-id: 357a37e1
     server: 172.236.239.126
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: 6b4861de-7316-4a5a-bc45-0cbd8bf97eab
     ws-opts:
@@ -690,7 +689,7 @@ proxies:
     port: 9443
     reality-opts:
       public-key: zd4L59ejBo94N8N9GQtZMox2eBBF9TQf2TLyIgpwlCg
-      short-id: 'fd7624659f1e7d66'
+      short-id: fd7624659f1e7d66
     server: 191.217.206.147
     servername: fin.krabvpn.pro
     tls: true
@@ -809,7 +808,7 @@ proxies:
     port: '443'
     reality-opts:
       public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-      short-id: '868419504747f6de'
+      short-id: 868419504747f6de
     server: 84.32.54.237
     servername: rly-gw-cfg.galioncc.com
     tls: true
@@ -865,7 +864,7 @@ proxies:
     port: '44306'
     reality-opts:
       public-key: qzoG-cG8dG_C1T2tsWnWgooE9eekntARY0fVGIyg4Fg
-      short-id: 'c11a9913'
+      short-id: c11a9913
     server: 122.9.123.248
     servername: dl.google.com
     tls: true
@@ -992,7 +991,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-      short-id: 'a7c92e4b10d6f835'
+      short-id: a7c92e4b10d6f835
     server: 88.216.60.73
     servername: ns-api-gw.galioncc.com
     skip-cert-verify: false
@@ -1190,7 +1189,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: drl7nndYdfzZY1aQ0eUAWmNV0nsHig2uDnu9siy9biQ
-      short-id: 'a7c92e4b10d6f835'
+      short-id: a7c92e4b10d6f835
     server: 80.47.10.106
     servername: pl8.galioncc.com
     tls: true
@@ -1371,7 +1370,7 @@ proxies:
     port: '443'
     reality-opts:
       public-key: K3Qci9i3W2_Pn88RiUGD8cjfuJ0fmFbc7e_YyupZBkM
-      short-id: '431c6edc'
+      short-id: 431c6edc
     server: de5.rvpn.online
     servername: onlycats.photos
     tls: true
@@ -1387,7 +1386,7 @@ proxies:
     port: '443'
     reality-opts:
       public-key: MoLUMyBCaTkH_xXlZF6HwgM2oi8bBeW08JQmyu7HVEo
-      short-id: 'e7b8e3f3'
+      short-id: e7b8e3f3
     server: de6.rvpn.online
     servername: onlycats.photos
     tls: true
@@ -1426,7 +1425,7 @@ proxies:
     port: '62015'
     reality-opts:
       public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ
-      short-id: 'fa514b83'
+      short-id: fa514b83
     server: free.fugui.lol
     servername: swdist.apple.com
     tls: true
@@ -1789,7 +1788,7 @@ proxies:
     port: 46105
     reality-opts:
       public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik
-      short-id: '28f5c1f8f98a'
+      short-id: 28f5c1f8f98a
     server: funagfrdfs.alixxplay.com
     servername: www.lamer.com.sg
     skip-cert-verify: false
@@ -1805,7 +1804,7 @@ proxies:
     port: 54528
     reality-opts:
       public-key: 7GvJVbR6BRhtrc8-rcZvB8qTFUF1LPeM_MmoZ04mBxo
-      short-id: '54cca3c1c1c7'
+      short-id: 54cca3c1c1c7
     server: funagfrdfs.alixxplay.com
     servername: www.apple.com
     skip-cert-verify: false
@@ -1912,7 +1911,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU
-      short-id: '88d9dc52ef39c8bd'
+      short-id: 88d9dc52ef39c8bd
     server: 92.42.201.107
     servername: node-slo02.rkitman.ru
     skip-cert-verify: false

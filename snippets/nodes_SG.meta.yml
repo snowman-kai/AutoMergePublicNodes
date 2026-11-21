@@ -13,7 +13,7 @@ proxies:
     port: 443
     reality-opts:
       public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
-      short-id: '!!str 640c807d'
+      short-id: '640c807d'
     server: 139.162.20.241
     servername: itunes.apple.com
     skip-cert-verify: true
@@ -31,10 +31,10 @@ proxies:
     port: 443
     reality-opts:
       public-key: fG1u2AZj5pgSNWO3MBmkoY6K61xBwnuYX3_z1fSeR0o
-      short-id: '!!str 640c807d'
+      short-id: '640c807d'
     server: 139.162.20.241
     servername: itunes.apple.com
-    tls: false
+    tls: true
     type: vless
     uuid: 7f0270f9-1abc-4c4f-960d-0a23e32f1eb8
     ws-opts:
@@ -47,7 +47,7 @@ proxies:
     port: '44306'
     reality-opts:
       public-key: qzoG-cG8dG_C1T2tsWnWgooE9eekntARY0fVGIyg4Fg
-      short-id: '!!str c11a9913'
+      short-id: 'c11a9913'
     server: 122.9.123.248
     servername: dl.google.com
     tls: true

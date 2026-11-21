@@ -430,7 +430,7 @@ class Node:
                     self.data['flow'] = v
                 else: self.data['flow'] = v+'!'
             elif k == 'fp': self.data['client-fingerprint'] = v
-            elif k == 'security' and v == 'tls':
+            elif k == 'security' and v in ('tls', 'reality'):
                 self.data['tls'] = True
             elif k == 'pbk':
                 if 'reality-opts' not in self.data:

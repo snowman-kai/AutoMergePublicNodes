@@ -31,14 +31,16 @@ jobs:
       run: pip install -r requirements.txt
     - name: 执行任务
       run: python ./fetch.py
+
+    - name: 修正 Mihomo 配置兼容性
+      run: python ./mihomo_compat.py
       
     - name: 提交更改
       run: |                 
         git config --local user.email "actions@github.com"
         git config --local user.name "GitHub Actions"
         git pull origin master
-        git add list*
-        git add snippets/
+        git add list* snippets/ fetch.py config.yml mihomo_compat.py
         git commit -m "$(date '+%Y-%m-%d %H:%M:%S') 抓取节点"
     - name: 推送更改
       uses: ad-m/github-push-action@master

@@ -36,6 +36,9 @@ jobs:
             fetch.py dynamic.py fetch_config.yml config.yml abpwhite.txt \
             requirements.txt snippets/example.yml LICENSE.md sources.list
 
+      - name: 重新应用 Mihomo 兼容修正
+        run: python ./mihomo_compat.py --source-only
+
       # 安全校验：确认本地特色文件未被误改，一旦误改立即中止。
       - name: 校验本地文件未被误改
         run: |
@@ -51,7 +54,8 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
           git add fetch.py dynamic.py fetch_config.yml config.yml abpwhite.txt \
-              requirements.txt snippets/example.yml LICENSE.md sources.list
+              requirements.txt snippets/example.yml LICENSE.md sources.list \
+              mihomo_compat.py
           if git diff --cached --quiet; then
             echo "无变更，跳过提交"
           else

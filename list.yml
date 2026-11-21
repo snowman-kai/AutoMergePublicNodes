@@ -15,7 +15,6 @@ dns:
   nameserver-policy:
     geosite:googlefcm: https://doh.pub/dns-query
 external-controller: 127.0.0.1:9090
-global-client-fingerprint: chrome
 ipv6: true
 log-level: warning
 mixed-port: 7890
