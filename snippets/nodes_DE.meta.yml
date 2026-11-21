@@ -1,49 +1,30 @@
 proxies:
-  - alpn:
-      - h2
-    client-fingerprint: edge
-    encryption: none
-    name: 🇩🇪DE_2|2.0MB/s
-    network: xhttp
-    port: '443'
-    server: chess.com
-    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0280c276-641b-49af-b699-4931c30ac137
-    xhttp-opts:
-      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
-      mode: auto
-      path: /api
-    xudp: true
-  - name: 🇩🇪DE_3|4.2MB/s
+  - name: 🇩🇪DE_1|2.5MB/s
     port: 443
     server: 172.64.68.89
     skip-cert-verify: true
     sni: 172.64.68.89
     tls: true
     type: http
-  - name: 🇩🇪DE_4|3.9MB/s
+  - name: 🇩🇪DE_2|1.3MB/s|P002-260618
+    password: None
     port: 443
-    server: 172.64.69.89
+    server: 172.64.68.89
     skip-cert-verify: true
+    sub_tag: P002-260618
     tls: true
     type: http
-  - name: 🇩🇪DE_5|4.1MB/s
-    password: 'null'
+    udp: true
+    x-toolall-mihomo: true
+  - name: 🇩🇪DE_3|1.6MB/s|R002-260618
     port: 443
-    server: 172.64.69.89
+    server: 152.233.20.206
     skip-cert-verify: true
+    sub_tag: R002-260618
     tls: true
     type: http
-    username: 'null'
-  - name: 🇩🇪DE_6|3.1MB/s
-    port: 9002
-    server: 158.173.154.4
-    skip-cert-verify: true
-    tls: true
-    type: http
+    udp: true
+    x-toolall-mihomo: true
   - name: DE_speednode_0004
     port: 443
     server: 213.109.163.119
@@ -51,129 +32,3 @@ proxies:
     tls: true
     type: http
     udp: true
-  - name: DK_speednode_0005
-    port: 9002
-    server: 158.173.154.5
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - name: DK_speednode_0006
-    port: 9002
-    server: 158.173.154.1
-    skip-cert-verify: true
-    tls: true
-    type: http
-    udp: true
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    name: 🇩🇪DE_10|2.4MB/s
-    network: xhttp
-    port: '443'
-    server: 104.18.139.67
-    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0280c276-641b-49af-b699-4931c30ac137
-    xhttp-opts:
-      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
-      path: /api
-    xudp: true
-  - alpn:
-      - h2
-    client-fingerprint: edge
-    name: 🇩🇪DE_13|1.2MB/s
-    network: xhttp
-    port: '443'
-    server: 104.18.140.67
-    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0280c276-641b-49af-b699-4931c30ac137
-    xhttp-opts:
-      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
-      path: /api
-    xudp: true
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    name: 🇩🇪DE_14|1.3MB/s
-    network: xhttp
-    port: '443'
-    server: 104.18.141.67
-    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0280c276-641b-49af-b699-4931c30ac137
-    xhttp-opts:
-      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
-      path: /api
-    xudp: true
-  - alpn:
-      - h2
-    client-fingerprint: firefox
-    name: 🇩🇪DE_15|2.3MB/s
-    network: xhttp
-    port: '443'
-    server: 104.18.137.67
-    servername: norway.xn--nlqaa425dbaab446bbabd698meae.online.
-    tls: true
-    type: vless
-    udp: true
-    uuid: 0280c276-641b-49af-b699-4931c30ac137
-    xhttp-opts:
-      host: norway.xn--nlqaa425dbaab446bbabd698meae.online
-      path: /api
-    xudp: true
-  - name: 🇩🇪DE_16|3.2MB/s
-    password: ''
-    port: '9002'
-    server: 158.173.154.2
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: 🇩🇪DE_17|3.4MB/s
-    password: 'null'
-    port: '443'
-    server: 172.64.68.89
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: 🇩🇪DE_18|2.9MB/s
-    password: ''
-    port: '9002'
-    server: 158.173.154.3
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: ''
-  - name: 🇩🇪DE_19|1.3MB/s
-    password: 'null'
-    port: '443'
-    server: 87.106.223.158
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: 🇩🇪DE_20|1.1MB/s
-    password: 'null'
-    port: '443'
-    server: 159.69.94.125
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
-  - name: 🇩🇪DE_21|3.8MB/s
-    password: 'null'
-    port: '9002'
-    server: 158.173.154.3
-    skip-cert-verify: true
-    tls: true
-    type: http
-    username: 'null'
